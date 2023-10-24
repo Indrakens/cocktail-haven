@@ -10,6 +10,11 @@
                 <p>Now, it's time for you to brush up on your mixology skills</p>
                 <p>and learn a few classic cocktail recipes.</p>
                 <p>Start practicing these cocktail recipes.</p>
+                {% if user.is_authenticated %}
+                <p class="invisible"><a href="#">Register Now!</a></p>
+                {% else %}
+                <p><a href="#" class="btn btn-lg btn-success btn-signup">Register Now!</a></p>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -41,13 +46,13 @@
                                     <p class="card-text">{{ recipe.description }}</p>
                                     {% if user.is_authenticated %}
                                     <div class="recipe-link">
-                                        <a href="#"><i class="fa fa-arrow-right"></i> Get
+                                        <a href="{% url 'recipe' recipe.slug %}"><i class="fa fa-arrow-right"></i> Get
                                             The
                                             {{ recipe.name }} Recipe</a>
                                     </div>
                                     {% else %}
                                     <p>Get The {{ recipe.name }} Recipe.</p>
-                                    <p class="d-grid gap-2 col-6 mx-auto"><a href="{% url 'account_login' %}"
+                                    <p class="d-grid gap-2 col-6 mx-auto"><a href="#"
                                             class="btn btn-signup btn-success">Log In</a></p>
                                     {% endif %}
                                 </div>

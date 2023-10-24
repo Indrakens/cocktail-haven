@@ -17,6 +17,79 @@
             </div>  
         </div>
     </div>
-</div>   
+</div> 
+
+<div class="container">
+    <div class="row">
+        <div class="col card mb-4  mt-3 left top">
+            <div class="card-body">
+                <!-- Recipe content -->
+                <p class="card-text f-6" style="width: 20rem;">{{ cocktail.serving | safe }} serving(s) | {{ cocktail.time | safe }}-mins
+                </p>
+                <p class="card-text" style="width: 20rem;"><span class="card-heading">Ingredients:</span>
+                    {{ cocktail.ingredients | safe }}
+                </p>
+                <p class="card-text" style="width: 45rem;">     
+                    <span class="card-heading">Directions:</span>     
+                    {{ cocktail.directions | safe }}
+                </p>
+                <div class="row">
+                    <div class="col-1">
+                        <strong>
+                            {% if user.is_authenticated %} 
+                            <form class="d-inline" action="{% url 'cocktail_like' cocktail.slug %}" method="POST">
+                                {% csrf_token %}
+                                {% if liked %}
+                                <button type="submit" name="cocktail_id" value="{{cocktail.slug}}" class="btn-like"><i class="fas fa-heart"></i></button>
+                                {% else %}
+                                <button type="submit" name="cocktail_id" value="{{cocktail.slug}}" class="btn-like"><i class="far fa-heart"></i></button>
+                                {% endif %}
+                            </form>
+                            {% else %} 
+                            <span class="text-secondary"><i class="far fa-heart"></i></span>
+                            {% endif %} 
+                        </strong>
+                        <!-- The number of likes -->
+                        <strong class="text-dark">{{ cocktail.number_of_likes }}</strong>
+                    </div>
+                    <div class="col-1">
+                        {% with comments.count as total_comments %}
+                        <strong class="text-dark"><i class="far fa-comments"></i>
+                            <!-- Total comments -->
+                            {{ total_comments }}</strong>
+                        {% endwith %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 card mb-4  mt-3 ">
+            <h3>Comments:</h3>
+            <div class="card-body">
+                <!-- For loop to iterate through each comment in comments -->
+                {% for comment in comments %}
+                <div class="comments" style="padding: 10px;">
+                    <p class="font-weight-bold">
+                        {{ comment.name }}
+                        <span class=" text-muted font-weight-normal">
+                            {{ comment.created_on }}
+                        </span> wrote:
+                    </p>
+                    <!-- The comment body -->
+                    {{ comment.body | linebreaks }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+       
+
+    </div>
+</div>
 
 {% endblock content %}
