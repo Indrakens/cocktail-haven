@@ -1,3 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
+
+<header>
+    <div class="image-container-fluid position-relative text-justify">
+        <div class="row img-fluid position-absolute top-0 start-50 translate-middle-x">
+
+            <div class="col-12 image-text text-center">
+                <h1>Cocktail | Haven</h1>
+                <p>Now, it's time for you to brush up on your mixology skills</p>
+                <p>and learn a few classic cocktail recipes.</p>
+                <p>Start practicing these cocktail recipes.</p>
+                {% if user.is_authenticated %}
+                <p class="invisible"><a href="#">Register Now!</a></p>
+                {% else %}
+                <p><a href="#" class="btn btn-lg btn-success btn-signup">Register Now!</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="sub-text fs-5 text-muted text-center bg-white">
+        There's sure to be a classic cocktail on this list for you!
+    </div>
+</header>
+
 {%endblock%}
