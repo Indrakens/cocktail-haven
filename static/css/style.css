@@ -1,15 +1,4 @@
-.brand {
-    font-family: Ralway, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #4A4A4F;
-}
-
-.thin {
-    font-weight: 100;
-}
-
-/* Main page*/
+/* Header */
 .image-container-fluid{
     background: url('../images/Green-Cocktail.jpg');
     background-repeat: no-repeat;
@@ -42,4 +31,16 @@
     line-height: 0.8; 
     text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;
     margin-top: 5px;
+}
+
+/* Main page */
+.brand {
+    font-family: Ralway, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4A4A4F;
+}
+
+.thin {
+    font-weight: 100;
 }
