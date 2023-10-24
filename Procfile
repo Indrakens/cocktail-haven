@@ -1,0 +1,1 @@
+web: gunicorn cocktails2023.wsgi
