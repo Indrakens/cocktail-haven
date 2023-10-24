@@ -33,7 +33,7 @@
     margin-top: 5px;
 }
 
-/* Main page */
+/* Main */
 .brand {
     font-family: Ralway, sans-serif;
     font-size: 1.4rem;
@@ -43,4 +43,63 @@
 
 .thin {
     font-weight: 100;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    font-family: Ralway, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: #4A4A4F;
+}
+
+.card-heading{
+    font-family: Ralway, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #4A4A4F;
+    text-decoration: underline;
+}
+
+.img-thumbnail{
+    padding: 8px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: 38%;
+    min-width: 30%;
+    left: 8px;
+    background-color: #8CBC8A;
+    opacity: 85%;
+    padding: 8px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.cocktail {
+    color: #D8FDDA;
+    margin: 4px;
+    text-transform: uppercase;
+    font-family: Ralway, sans-serif;
+    font-weight: 400;
+}    
+
+.post-link {
+    text-decoration: none;
+    color: #4A4A4F;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.recipe-link {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
 }
