@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+
 {% block content %}
 
 <header>
+
     <div class="image-container-fluid position-relative text-justify">
         <div class="row img-fluid position-absolute top-0 start-50 translate-middle-x">
 
@@ -11,9 +13,9 @@
                 <p>and learn a few classic cocktail recipes.</p>
                 <p>Start practicing these cocktail recipes.</p>
                 {% if user.is_authenticated %}
-                <p class="invisible"><a href="#">Register Now!</a></p>
+                <p class="invisible"><a href="{% url 'account_signup' %}">Register Now!</a></p>
                 {% else %}
-                <p><a href="#" class="btn btn-lg btn-success btn-signup">Register Now!</a></p>
+                <p><a href="{% url 'account_signup' %}" class="btn btn-lg btn-success btn-signup">Register Now!</a></p>
                 {% endif %}
             </div>
         </div>
@@ -25,7 +27,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <!-- Recipe column -->
+        <!-- Cocktail column -->
         <div class="col-12 mt-3 left">
             <div class="row">
                 {% for recipe in recipe_list %}
@@ -35,7 +37,7 @@
                             <div class="image-container">
                                 {% if "placeholder" in recipe.featured_image.url %}
                                 <img class="card-img-top img-thumbnail"
-                                    src="../static/images/cocktail.jpg" width="100%" alt="cocktail-glass">
+                                    src="../static/images/cocktail.jpg" width="90%" alt="cocktail-glass">
                                 {% else %}
                                 <img class="card-img-top img-thumbnail" src=" {{ recipe.featured_image.url }}">
                                 {% endif %}
@@ -52,7 +54,7 @@
                                     </div>
                                     {% else %}
                                     <p>Get The {{ recipe.name }} Recipe.</p>
-                                    <p class="d-grid gap-2 col-6 mx-auto"><a href="#"
+                                    <p class="d-grid gap-2 col-6 mx-auto"><a href="{% url 'account_login' %}"
                                             class="btn btn-signup btn-success">Log In</a></p>
                                     {% endif %}
                                 </div>
@@ -65,8 +67,8 @@
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:3 %}
-                </div>
-                <div class="row">
+            </div>
+            <div class="row">
                 {% endif %}
                 {% endfor %}
             </div>
@@ -86,6 +88,7 @@
         </ul>
     </nav>
     {% endif %}
-</div>
 
+</div>
+</div>
 {%endblock%}

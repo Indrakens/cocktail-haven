@@ -33,7 +33,7 @@
     margin-top: 5px;
 }
 
-/* Main */
+/* Main page */
 .brand {
     font-family: Ralway, sans-serif;
     font-size: 1.4rem;
@@ -43,6 +43,10 @@
 
 .thin {
     font-weight: 100;
+}
+
+.main-bg {
+    background-color: #D8FDDA;
 }
 
 .card {
@@ -104,6 +108,109 @@
     font-size: 14px;
 }
 
-.main-bg {
-    background-color: #D8FDDA;
+.recipe-link a{
+    color: #198754;
+    text-decoration: none;
+}
+
+.recipe-link :hover{
+    color: #282928;
+    text-decoration: underline;
+}
+
+.link {
+    color: #198754;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: #198754;
+    padding: 10px;
+    font-size: 14px;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.pagination a:hover{
+    text-decoration: none;
+    color: #282928;
+    padding: 10px;
+    background: none; 
+}
+
+.btn-signup {
+    text-shadow: 1px 1px 1px black;
+}
+
+.btn-signup:hover {
+    background-color: #B2D2B1;
+}
+
+.btn-login{
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Recipe detail page */
+.main-head {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 25vh;
+    width: 100%;
+}
+
+.main-head-text {
+    background-color: #B2D2B1;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 70px;
+}
+
+.main-head-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-head-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 80%;
+    height: 160%;
+    width: 190%;
+    background: #B2D2B1;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.cocktail-title {
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 50px;
+}
+
+.cocktail-subtitle {
+    margin-left: 5%;
+}
+
+.btn-like {
+    color: #F74F4F;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:active {
+    color: #F74F4F;
+    background: transparent;
+    border: none;
 }
