@@ -1,0 +1,16 @@
+.brand {
+    font-family: Ralway, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4A4A4F;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.main-bg {
+    background-color: #D8FDDA;
+}
+
+/* Main page*/
