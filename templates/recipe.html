@@ -12,7 +12,7 @@
             </div> 
             <div class="d-none d-md-block col-md-4 main-head-image">
                 {% if "placeholder" in cocktail.featured_image.url %}
-                <img src="../static/images/cocktail.jpg" width="55%">
+                <img src="../static/images/cocktail.jpg" width="55%" alt="green-lime-cocktail">
                 {% else %}
                 <img src=" {{ cocktail.featured_image.url }}"  width="55%">
                 {% endif %} 
