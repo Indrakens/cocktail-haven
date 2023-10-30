@@ -2,7 +2,14 @@
 {% block content %}
 
 {% load crispy_forms_tags %}
-
+<!--add if statement-->
+<div class="container">
+    <div class="choices col-md-6 g-0">
+    <a href="#" class="btn btn-sm btn-success w-25 btn-signup">Edit</a>
+    <a href="#" class="btn btn-sm btn-success w-25 btn-signup">Delete</a>
+    </div>
+</div> 
+<!--endif-->
 <div class="main-head">
     <div class="container">
         <div class="row g-0">
@@ -19,18 +26,20 @@
             </div>  
         </div>
     </div>
-</div>   
+</div> 
+
+
 
 <div class="container">
     <div class="row">
         <div class="col card mb-4  mt-3 left top">
             <div class="card-body">
-                <p class="card-text f-6" style="width: 20rem;">{{ cocktail.serving | safe }} serving(s) | {{ cocktail.time | safe }}-mins
+                <p class="card-text f-6" style="width: 40%;">{{ cocktail.serving | safe }} serving(s) | {{ cocktail.time | safe }}-mins
                 </p>
-                <p class="card-text" style="width: 20rem;"><span class="card-heading">Ingredients:</span>
+                <p class="card-text" style="width: 40%;"><span class="card-heading">Ingredients:</span>
                     {{ cocktail.ingredients | safe }}
                 </p>
-                <p class="card-text" style="width: 45rem;">     
+                <p class="card-text" style="width: 65%;">     
                     <span class="card-heading">Directions:</span>     
                     {{ cocktail.directions | safe }}
                 </p>

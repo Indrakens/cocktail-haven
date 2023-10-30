@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Recipe
 from .forms import CommentForm
 
@@ -12,7 +13,7 @@ class RecipeList(generic.ListView):
     paginate_by = 6
 
 
-class RecipeDetail(View):
+class RecipeDetail(LoginRequiredMixin, View):
 
     def get(self, request, slug, *args, **kwargs):
         queryset = Recipe.objects.filter(status=1)
@@ -66,7 +67,7 @@ class RecipeDetail(View):
         ) 
 
 
-class RecipeLike(View):
+class RecipeLike(LoginRequiredMixin, View):
     
     def post(self, request, slug, *args, **kwargs):
         cocktail = get_object_or_404(Recipe, slug=slug)

@@ -158,6 +158,11 @@
 }
 
 /* Recipe detail page */
+.choices{
+    position: relative;
+    margin-top: 10px;
+}
+
 .main-head {
     margin-top: 10px;
     overflow: hidden;
