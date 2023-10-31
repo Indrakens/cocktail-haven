@@ -82,11 +82,11 @@ class RecipeLike(LoginRequiredMixin, View):
 
 class RecipeAdd(LoginRequiredMixin, generic.CreateView):
     model = Recipe
-    fields = ['name']
+    fields = ['name', 'featured_image', 'serving', 'time', 'description', 'ingredients', 'directions']
     template_name = 'recipe_form.html'
     success_url = reverse_lazy('home')
 
     def form_valid(self, form):
-        form.instance.author = self.request.user
+        form.instance.user = self.request.user
         form.instance.status = 1
         return super(RecipeAdd, self).form_valid(form)
