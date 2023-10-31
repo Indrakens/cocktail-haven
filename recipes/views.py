@@ -80,17 +80,13 @@ class RecipeLike(LoginRequiredMixin, View):
         return HttpResponseRedirect(reverse('recipe', args=[slug]))
 
 
-class RecipeCreate(LoginRequiredMixin, generic.CreateView):
+class RecipeAdd(LoginRequiredMixin, generic.CreateView):
     model = Recipe
     fields = ['name']
-    template_name = 'add_recipe.html'
-    success_url = reverse_lazy('recipe')
+    template_name = 'recipe_form.html'
+    success_url = reverse_lazy('home')
 
     def form_valid(self, form):
-        """
-        Sets logged in user as author field in form
-        Sets form default status to published
-        """
         form.instance.author = self.request.user
         form.instance.status = 1
-        return super(RecipeCreate, self).form_valid(form)
+        return super(RecipeAdd, self).form_valid(form)
