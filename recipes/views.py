@@ -1,9 +1,9 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, redirect, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Recipe
-from .forms import CommentForm
+from .forms import CommentForm, RecipeForm
 
 
 class RecipeList(generic.ListView):
@@ -11,6 +11,11 @@ class RecipeList(generic.ListView):
     queryset = Recipe.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
+
+    def cocktails(request):    
+        context = {'recipes_list': recipes_list}
+
+        return render(request, 'index.html')
             
 
 class RecipeDetail(LoginRequiredMixin, View):
@@ -77,3 +82,18 @@ class RecipeLike(LoginRequiredMixin, View):
             cocktail.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('recipe', args=[slug]))
+
+
+class CreateRecipe(LoginRequiredMixin, generic.CreateView):
+    def createRecipe(request):
+        form = RecipeForm()
+
+        if request.method == 'POST':
+            form = RecipeForm(request.POST)
+            if form.is_valid():
+                form.instance.user = request.user
+                form.save()
+                return redirect('home')
+
+        context = {'form': form}
+        return render(request, 'add-cocktail-form.html', context)        
