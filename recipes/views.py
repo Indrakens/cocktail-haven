@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.urls import reverse_lazy
 from .models import Recipe
 from .forms import CommentForm
 
@@ -11,7 +12,7 @@ class RecipeList(generic.ListView):
     queryset = Recipe.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
-
+            
 
 class RecipeDetail(LoginRequiredMixin, View):
 
@@ -76,4 +77,20 @@ class RecipeLike(LoginRequiredMixin, View):
         else:
             cocktail.likes.add(request.user)
 
-        return HttpResponseRedirect(reverse('recipe', args=[slug]))  
+        return HttpResponseRedirect(reverse('recipe', args=[slug]))
+
+
+class RecipeCreate(LoginRequiredMixin, generic.CreateView):
+    model = Recipe
+    fields = ['name']
+    template_name = 'add_recipe.html'
+    success_url = reverse_lazy('recipe')
+
+    def form_valid(self, form):
+        """
+        Sets logged in user as author field in form
+        Sets form default status to published
+        """
+        form.instance.author = self.request.user
+        form.instance.status = 1
+        return super(RecipeCreate, self).form_valid(form)

@@ -26,7 +26,7 @@ class Recipe(models.Model):
         return self.name
 
     def number_of_likes(self):
-        return self.likes.count()
+        return self.likes.count()      
 
 
 class Comment(models.Model):
