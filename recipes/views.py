@@ -2,7 +2,6 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.urls import reverse_lazy
 from .models import Recipe
 from .forms import CommentForm
 
@@ -78,15 +77,3 @@ class RecipeLike(LoginRequiredMixin, View):
             cocktail.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('recipe', args=[slug]))
-
-
-class RecipeAdd(LoginRequiredMixin, generic.CreateView):
-    model = Recipe
-    fields = ['name', 'featured_image', 'serving', 'time', 'description', 'ingredients', 'directions']
-    template_name = 'recipe_form.html'
-    success_url = reverse_lazy('home')
-
-    def form_valid(self, form):
-        form.instance.user = self.request.user
-        form.instance.status = 1
-        return super(RecipeAdd, self).form_valid(form)
