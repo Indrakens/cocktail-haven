@@ -108,6 +108,8 @@ class RecipeUpdate(LoginRequiredMixin, SuccessMessageMixin, generic.UpdateView):
     model = Recipe
     fields = [
             'name',
+            'slug',
+            'user',
             'featured_image',
             'serving',
             'time',
