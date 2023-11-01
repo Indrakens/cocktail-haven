@@ -52,14 +52,17 @@
                                             The
                                             {{ recipe.name }} Recipe</a>
                                     </div>
-                                    <div class="choices col-md-12 g-0">
-                                        <a href="#" class="btn btn-sm btn-success w-25 btn-signup">Edit</a>
-                                        <a href="#" class="btn btn-sm btn-success w-25 btn-signup">Delete</a>
-                                    </div>
                                     {% else %}
                                     <p>Get The {{ recipe.name }} Recipe.</p>
                                     <p class="d-grid gap-2 col-6 mx-auto"><a href="{% url 'account_login' %}"
                                             class="btn btn-signup btn-success">Log In</a></p>
+                                    {% endif %}
+
+                                    {% if user.is_authenticated %}
+                                    <div class="choices col-md-12 g-0">
+                                        <a href="{% url 'edit_cocktail' recipe.slug %}" class="btn btn-sm btn-success w-25 btn-signup">Edit</a>
+                                        <a href="#" class="btn btn-sm btn-success w-25 btn-signup">Delete</a>
+                                    </div>
                                     {% endif %}
                                 </div>
 
