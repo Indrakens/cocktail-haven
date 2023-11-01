@@ -2,8 +2,9 @@ from django.shortcuts import render, redirect, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.urls import reverse_lazy
 from .models import Recipe
-from .forms import CommentForm, RecipeForm
+from .forms import CommentForm
 
 
 class RecipeList(generic.ListView):
@@ -11,11 +12,6 @@ class RecipeList(generic.ListView):
     queryset = Recipe.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
-
-    def cocktails(request):    
-        context = {'recipes_list': recipes_list}
-
-        return render(request, 'index.html')
             
 
 class RecipeDetail(LoginRequiredMixin, View):
@@ -84,16 +80,23 @@ class RecipeLike(LoginRequiredMixin, View):
         return HttpResponseRedirect(reverse('recipe', args=[slug]))
 
 
-class CreateRecipe(LoginRequiredMixin, generic.CreateView):
-    def createRecipe(request):
-        form = RecipeForm()
+class RecipeAdd(LoginRequiredMixin, generic.CreateView):
+    model = Recipe
+    fields = [
+            'name',
+            'slug',
+            'user',
+            'featured_image',
+            'serving',
+            'time',
+            'description',
+            'ingredients',
+            'directions'
+        ]
+    template_name = 'add-cocktail-form.html'
+    success_url = reverse_lazy('recipe')
 
-        if request.method == 'POST':
-            form = RecipeForm(request.POST)
-            if form.is_valid():
-                form.instance.user = request.user
-                form.save()
-                return redirect('home')
-
-        context = {'form': form}
-        return render(request, 'add-cocktail-form.html', context)        
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        form.instance.status = 1
+        return super(RecipeAdd, self).form_valid(form)
