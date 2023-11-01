@@ -94,7 +94,7 @@ class RecipeCreate(LoginRequiredMixin, generic.CreateView):
             'directions'
         ]
     template_name = 'add-cocktail-form.html'
-    success_url = reverse_lazy('recipe')
+    success_url = reverse_lazy('home')
 
     def form_valid(self, form):
         form.instance.user = self.request.user
