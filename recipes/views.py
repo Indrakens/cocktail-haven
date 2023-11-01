@@ -92,7 +92,7 @@ class RecipeCreate(LoginRequiredMixin, generic.CreateView):
             'description',
             'ingredients',
             'directions'
-        ]
+        ]     
     template_name = 'add-cocktail-form.html'
     success_url = reverse_lazy('home')
 
