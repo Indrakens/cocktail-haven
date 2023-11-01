@@ -80,7 +80,7 @@ class RecipeLike(LoginRequiredMixin, View):
         return HttpResponseRedirect(reverse('recipe', args=[slug]))
 
 
-class RecipeAdd(LoginRequiredMixin, generic.CreateView):
+class RecipeCreate(LoginRequiredMixin, generic.CreateView):
     model = Recipe
     fields = [
             'name',
@@ -97,6 +97,6 @@ class RecipeAdd(LoginRequiredMixin, generic.CreateView):
     success_url = reverse_lazy('recipe')
 
     def form_valid(self, form):
-        form.instance.author = self.request.user
+        form.instance.user = self.request.user
         form.instance.status = 1
-        return super(RecipeAdd, self).form_valid(form)
+        return super(RecipeCreate, self).form_valid(form)
