@@ -3,6 +3,7 @@ from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
+from django.contrib import messages
 from django.urls import reverse_lazy
 from .models import Recipe
 from .forms import CommentForm
@@ -109,7 +110,6 @@ class RecipeUpdate(LoginRequiredMixin, SuccessMessageMixin, generic.UpdateView):
     fields = [
             'name',
             'slug',
-            'user',
             'featured_image',
             'serving',
             'time',
@@ -120,3 +120,14 @@ class RecipeUpdate(LoginRequiredMixin, SuccessMessageMixin, generic.UpdateView):
     template_name = 'add-cocktail-form.html'
     success_url = reverse_lazy('home')
     success_message = "You have successfully updated a cocktail!" 
+
+
+class RecipeDelete(LoginRequiredMixin, SuccessMessageMixin, generic.DeleteView):
+    model = Recipe
+    template_name = 'delete_cocktail.html'
+    success_url = reverse_lazy('home')
+    success_message = "Cocktail-recipe have been deleted!"
+
+    def delete(self, request, *args, **kwargs):
+        messages.success(self.request, self.success_message)
+        return super(RecipeDelete, self).delete(request, *args, **kwargs)    

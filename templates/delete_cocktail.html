@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container">  
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2 pt-2">
+            <form method="POST" action="">
+                {% csrf_token %}
+                <h3>Delete Cocktail</h3>
+                <p>Are you sure you want to delete the "{{ recipe.name}}"?</p>
+                <div class="exit-link">
+                    <p>If you're not sure, then please 
+                        <a href="{% url 'home' %}" class="exit-link">Exit</a> .
+                    </p>
+                </div>
+                <div class="delete-button pt-4">
+                    <button type="submit" class="btn btn-sm btn-success w-25 btn-signup">Delete</button>
+                </div>
+            </form>
+        </div>           
+    </div>
+</div>
+{% endblock %}

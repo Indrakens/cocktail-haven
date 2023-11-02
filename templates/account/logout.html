@@ -11,6 +11,11 @@
             <h3>{% trans "Log Out" %}</h3>
 
             <p>{% trans 'Are you sure you want to log out?' %}</p>
+            <div class="exit-link">
+                <p>If you're not sure, then please
+                    <a href="{% url 'home' %}" class="exit-link">Exit</a>.
+                </p>
+            </div>
         </div>
     </div>
     <div class="row">
@@ -21,7 +26,7 @@
                 {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
-                <button class="btn btn-signup right btn-success" type="submit">{% trans 'Log Out' %}</button>
+                <button class="btn btn-signup btn-sm w-25 btn-success" type="submit">{% trans 'Log Out' %}</button>
             </form>
         </div>
     </div>

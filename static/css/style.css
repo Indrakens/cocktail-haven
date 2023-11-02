@@ -221,3 +221,14 @@
     background: transparent;
     border: none;
 }
+
+/* Delete page */
+.exit-link a{
+    color: #198754;
+    text-decoration: none;
+}
+
+.exit-link a:hover{
+    color: #282928;
+    text-decoration: underline;
+}
