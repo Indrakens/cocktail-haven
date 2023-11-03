@@ -12,7 +12,6 @@
           <h3 class="title ">Add Cocktail</h3>
             <form class="cocktail-form p-2" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ form.media }}
             {{ form | crispy }} 
             <button class="btn btn-sm btn-success w-25 btn-signup" type="submit">Add Cocktail &raquo;</button>
             </form>
