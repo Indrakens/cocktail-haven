@@ -89,12 +89,14 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
             'slug',
             'user',
             'featured_image',
+            'featured_image_alt',
             'serving',
             'time',
             'description',
             'ingredients',
             'directions'
         ]
+    summernote_fields = ('ingredients',)     
     success_message = "You have successfully added a cocktail!"         
     template_name = 'add-cocktail-form.html'
     success_url = reverse_lazy('home')
@@ -111,6 +113,7 @@ class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin,
             'name',
             'slug',
             'featured_image',
+            'featured_image_alt',
             'serving',
             'time',
             'description',
