@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.contrib import messages
 from django.urls import reverse_lazy
@@ -122,12 +122,11 @@ class RecipeUpdate(LoginRequiredMixin, SuccessMessageMixin, generic.UpdateView):
     success_message = "You have successfully updated a cocktail!" 
 
 
-class RecipeDelete(LoginRequiredMixin, SuccessMessageMixin, generic.DeleteView):
+class RecipeDelete(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
     model = Recipe
     template_name = 'delete_cocktail.html'
     success_url = reverse_lazy('home')
     success_message = "Cocktail-recipe have been deleted!"
 
-    def delete(self, request, *args, **kwargs):
-        messages.success(self.request, self.success_message)
-        return super(RecipeDelete, self).delete(request, *args, **kwargs)    
+    def test_func(self):
+        return self.request.user == self.get_object().user    

@@ -232,3 +232,14 @@
     color: #282928;
     text-decoration: underline;
 }
+
+/* 403 page */
+.return-home {
+    color: #198754;
+    text-decoration: none;
+}
+
+.return-home:hover{
+    color: #282928;
+    text-decoration: underline;
+}
