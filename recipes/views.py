@@ -105,7 +105,7 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
         return super(RecipeCreate, self).form_valid(form)
 
 
-class RecipeUpdate(LoginRequiredMixin, SuccessMessageMixin, generic.UpdateView):
+class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.UpdateView):
     model = Recipe
     fields = [
             'name',
@@ -120,6 +120,9 @@ class RecipeUpdate(LoginRequiredMixin, SuccessMessageMixin, generic.UpdateView):
     template_name = 'add-cocktail-form.html'
     success_url = reverse_lazy('home')
     success_message = "You have successfully updated a cocktail!" 
+
+    def test_func(self):
+        return self.request.user == self.get_object().user 
 
 
 class RecipeDelete(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
