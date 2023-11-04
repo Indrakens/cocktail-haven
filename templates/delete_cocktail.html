@@ -5,17 +5,17 @@
 
 <div class="container">  
     <div class="row">
-        <div class="col-md-8 mt-3 offset-md-2 pt-2">
+        <div class="col-md-8 offset-md-2 pt-5">
             <form method="POST">
                 {% csrf_token %}
-                <h3>Delete Cocktail</h3>
+                <h2>Delete Cocktail</h2>
                 <p>Are you sure you want to delete the "{{ recipe.name}}"?</p>
                 <div class="exit-link">
                     <p>If you're not sure, then please 
                         <a href="{% url 'home' %}" class="exit-link">Exit</a> .
                     </p>
                 </div>
-                <div class="delete-button pt-4">
+                <div class="delete-button pb-5 pt-4">
                     <button type="submit" class="btn btn-sm btn-success w-25 btn-signup">Delete</button>
                 </div>
             </form>
