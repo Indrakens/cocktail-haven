@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import sys
 import dj_database_url
 from django.contrib.messages import constants as messages
 if os.path.isfile('env.py'):
@@ -31,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cocktailhaven-c675f9e827ad.herokuapp.com','8000-indrakens-cocktailhaven-eahhjpiz98a.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['cocktailhaven-c675f9e827ad.herokuapp.com','8000-indrakens-cocktailhaven-1rpghkv1292.ws-eu105.gitpod.io']
 
 
 # Application definition
@@ -116,6 +117,8 @@ WSGI_APPLICATION = 'cocktails2023.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+if 'test' in sys.argv or 'test_coverage' in sys.argv: #Covers regular testing and django-coverage
+    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
 
 
 # Password validation

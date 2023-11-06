@@ -95,8 +95,7 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
             'description',
             'ingredients',
             'directions'
-        ]
-    summernote_fields = ('ingredients',)     
+        ]    
     success_message = "You have successfully added a cocktail!"         
     template_name = 'add-cocktail-form.html'
     success_url = reverse_lazy('home')
