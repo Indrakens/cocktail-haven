@@ -18,4 +18,8 @@ class TestViews(TestCase):
     def test_get_add_cocktail_page(self):
         response = self.client.get(reverse('add_cocktail'))
         self.assertEqual(response.status_code, 302)
+
+    def test_edit_cocktail(self):
+        response = self.client.get(f'/edit_cocktail/')
+        self.assertEqual(response.status_code, 302)    
         
