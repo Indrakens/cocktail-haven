@@ -6,6 +6,9 @@ from .models import Recipe
 class TestViews(TestCase):
                 
     def test_get_home(self):
+        """
+        Home page test response 200
+        """
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'index.html')  
@@ -36,7 +39,7 @@ class TestViews(TestCase):
 
     def test_delete_cocktail(self):
         """
-        User is authenticated redirects to 403 page
+        User is authenticated redirects to delete_cocktail page
         User can delete it's own cocktail recipe
         """
         response = self.client.get(f'/delete_cocktail/')
