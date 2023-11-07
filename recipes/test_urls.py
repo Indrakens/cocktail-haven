@@ -28,7 +28,7 @@ class TestUrls(TestCase):
 
     def test_delete_cocktail_url_resolves(self):
         """
-        Redirects to 403 page
+        Redirects to delete_cocktail page
         """
         url = reverse('delete_cocktail', args=['slug'])
         self.assertEqual(resolve(url).func.view_class, RecipeDelete)

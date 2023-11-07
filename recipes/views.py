@@ -149,7 +149,7 @@ class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin,
 class RecipeDelete(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
     """
     Logged-in user can delete it's own cocktail recipe
-    Redirects to delete page
+    Redirects to delete_cocktail page
     Clicking on delete button to other user cocktail recipe will redirect to 403 page
     """
     model = Recipe
