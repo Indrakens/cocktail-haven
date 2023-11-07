@@ -5,6 +5,9 @@ from cloudinary.models import CloudinaryField
 STATUS = ((0, "Draft"), (1, "Published"))
 
 class Recipe(models.Model):
+    """
+    Recipe Model
+    """
     name = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cocktail")
@@ -21,16 +24,25 @@ class Recipe(models.Model):
     likes = models.ManyToManyField(User, related_name='cocktail_like', blank=True)
 
     class Meta:
+        """
+        Displays newest created-on cocktails
+        """
         ordering = ["-created_on"]
 
     def __str__(self):
         return self.name
 
     def number_of_likes(self):
+        """
+        Displays total number of likes
+        """
         return self.likes.count()      
 
 
 class Comment(models.Model):
+    """
+    Comment Model
+    """
     cocktail = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name="comments")
     name = models.CharField(max_length=80)
     email = models.EmailField()
@@ -39,6 +51,9 @@ class Comment(models.Model):
     approved = models.BooleanField(default=False)
 
     class Meta:
+        """
+        Displays user comments from oldest to newest
+        """
         ordering = ["created_on"]
 
     def __str__(self):
