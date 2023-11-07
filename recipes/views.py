@@ -6,7 +6,7 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django.contrib import messages
 from django.urls import reverse_lazy
 from .models import Recipe
-from .forms import CommentForm
+from .forms import CommentForm 
 
 
 class RecipeList(generic.ListView):
