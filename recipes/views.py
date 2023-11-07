@@ -10,6 +10,9 @@ from .forms import CommentForm
 
 
 class RecipeList(generic.ListView):
+    """
+    Displays header and most recent added cocktails
+    """
     model = Recipe
     queryset = Recipe.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
@@ -17,7 +20,10 @@ class RecipeList(generic.ListView):
             
 
 class RecipeDetail(LoginRequiredMixin, View):
-
+    """
+    Displays cocktail recipe details for logged-in users
+    Logged users can like and leave a comment
+    """
     def get(self, request, slug, *args, **kwargs):
         queryset = Recipe.objects.filter(status=1)
         cocktail = get_object_or_404(queryset, slug=slug)
@@ -39,6 +45,9 @@ class RecipeDetail(LoginRequiredMixin, View):
         )
 
     def post(self, request, slug, *args, **kwargs):
+        """
+        Logged-in user gets cocktail recipe details with likes and approved comments
+        """
         queryset = Recipe.objects.filter(status=1)
         cocktail = get_object_or_404(queryset, slug=slug)
         comments = cocktail.comments.filter(approved=True).order_by("-created_on")
@@ -71,7 +80,9 @@ class RecipeDetail(LoginRequiredMixin, View):
 
 
 class RecipeLike(LoginRequiredMixin, View):
-    
+    """
+    Logged-in user can like cocktail recipe
+    """    
     def post(self, request, slug, *args, **kwargs):
         cocktail = get_object_or_404(Recipe, slug=slug)
         if cocktail.likes.filter(id=request.user.id).exists():
@@ -83,6 +94,9 @@ class RecipeLike(LoginRequiredMixin, View):
 
 
 class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
+    """
+    Looged-in user can add it's own cocktail recipe
+    """
     model = Recipe
     fields = [
             'name',
@@ -107,6 +121,11 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
 
 
 class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.UpdateView):
+    """
+    Logged-in user can edit it's own cocktail recipe
+    Redirects to home page
+    Clicking on edit button to other user cocktail recipe will redirect to 403 page
+    """
     model = Recipe
     fields = [
             'name',
@@ -128,6 +147,11 @@ class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin,
 
 
 class RecipeDelete(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
+    """
+    Logged-in user can delete it's own cocktail recipe
+    Redirects to delete page
+    Clicking on delete button to other user cocktail recipe will redirect to 403 page
+    """
     model = Recipe
     template_name = 'delete_cocktail.html'
     success_url = reverse_lazy('home')
