@@ -18,7 +18,7 @@ class Recipe(models.Model):
     description = models.TextField(blank=False)
     updated_on = models.DateTimeField(auto_now=True)
     ingredients = models.TextField(blank=False)
-    for_serving = models.TextField(blank=True)
+    additional = models.TextField(blank=True)
     directions = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)

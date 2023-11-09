@@ -108,7 +108,7 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
             'time',
             'description',
             'ingredients',
-            'for_serving',
+            'additional',
             'directions'
         ]    
     success_message = "You have successfully added a cocktail!"         
@@ -137,7 +137,7 @@ class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin,
             'time',
             'description',
             'ingredients',
-            'for_serving',
+            'additional',
             'directions'
         ]
     template_name = 'add-cocktail-form.html'
