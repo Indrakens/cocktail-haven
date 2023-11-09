@@ -12,7 +12,7 @@ class Recipe(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cocktail")
     featured_image = CloudinaryField('image', default='placeholder')
-    featured_image_alt = models.CharField(max_length=100, null=False, blank=False, default='')
+    featured_image_alt = models.CharField(max_length=100, null=False, blank=False, default='green-lime-cocktail')
     serving = models.CharField(max_length=50, blank=False)
     time = models.CharField(max_length=50, blank=True)
     description = models.TextField(blank=False)
