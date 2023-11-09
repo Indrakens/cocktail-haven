@@ -15,7 +15,7 @@ class RecipeList(generic.ListView):
     """
     model = Recipe
     queryset = Recipe.objects.filter(status=1).order_by('-created_on')
-    template_name = 'home.html'
+    template_name = 'index.html'
     paginate_by = 6
             
 
@@ -108,6 +108,7 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
             'time',
             'description',
             'ingredients',
+            'for_serving',
             'directions'
         ]    
     success_message = "You have successfully added a cocktail!"         
@@ -136,6 +137,7 @@ class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin,
             'time',
             'description',
             'ingredients',
+            'for_serving',
             'directions'
         ]
     template_name = 'add-cocktail-form.html'
