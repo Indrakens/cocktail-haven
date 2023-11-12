@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cocktailhaven-c675f9e827ad.herokuapp.com','8000-indrakens-cocktailhaven-oxvmvoove3y.ws-eu106.gitpod.io']
+ALLOWED_HOSTS = ['cocktailhaven-c675f9e827ad.herokuapp.com','8000-indrakens-cocktailheave-mvavh96nj0t.ws-eu106.gitpod.io']
 
 
 # Application definition
