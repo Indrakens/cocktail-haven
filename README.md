@@ -1,5 +1,5 @@
-# COCKTAIL | HAVEN
-Website designed to provide users learn and try cocktail recipes. Users can create their own cocktail recipes and share their cocktail creation skills with everybody.
+# COCKTAIL | HEAVEN
+Website designed to provide users learn and try cocktail recipes. Users can create their own cocktail recipes and share their cocktail creation skills with other users.
 [responsiv website image]
 # UX
 ## Wireframe
