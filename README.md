@@ -8,7 +8,7 @@ Website designed to provide users learn and try cocktail recipes. Users can crea
 [add coclor cheme image]
 ## Typography
 * Fonts
-  * The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) .
+  * The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
 * Images 
   * Cocktail images were searched and saved in file from [Google]( https://www.google.com/ ).
 * Icons
@@ -50,8 +50,19 @@ The full list of User Stories is available on the project [kanban board](https:/
 * CRUD 
   * As a User I can CRUD so that I can manage my cocktail recipes [#39](https://github.com/users/Indrakens/projects/22/views/1?pane=issue&itemId=44342407)
 # SCOPE
-The goal of the project is to create a cocktail recipe website. Allow logged-in users to have full CRUD functionality for their own  cocktail recipes and share their cocktail recipes with other users. Allow logged-in users to comment on a cocktail recipe to share their mixology skills with other users. The logged-in users have the opportunity to start practicing these cocktail recipes and share their experience making them with others. As the front-end users, the site Admin has full CRUD functionality in Django Admin panel. 
+The goal of the project is to create a cocktail recipe website. To provide users to find an ideal cocktail recipe for them and inspire them to create their own cocktail recipe and share it with other users. Allow logged-in users to have full CRUD functionality for their own  cocktail recipes and share their cocktail recipes with other users. Allow logged-in users to comment on a cocktail recipe to share their mixology skills with other users. The logged-in users have the opportunity to start practicing these cocktail recipes and share their experience making them with others. As the front-end users, the site Admin has full CRUD functionality in Django Admin panel. 
 * User - can view site content, register an account, log-in and log-out
 * Cocktail Recipes - log-in user can create, edit, delete it's own recipe
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
-
+# Features
+## Home Page 
+* A welcoming homepage where users can register, see cocktail recipe images with description, created-on, number of likes, login button. (add image)
+* Logged in user Home page (add image)
+## Navigation Bar
+* The navigation bar appears top of the page.
+(add image)
+* The website Logo links users to Home page (add image)
+* Logged in user Nav bar (add image)
+## Footer
+Footer with links to direct user to Facebook, Instagram, Twiter (add image)
+## Register 
