@@ -56,18 +56,42 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
 # Features
 ## Home Page 
-* A welcoming homepage where users can register, see cocktail recipe images with description, created-on, number of likes, login button. (add image)
-* Logged in user Home page (add image)
+* A welcoming homepage where users can register, and see cocktail recipe images with descriptions, created-on, number of likes, and login button (add image and mobile image)
+* Logged in user Home page (add image, mobile image)
 ## Navigation Bar
-* The navigation bar appears top of the page.
-(add image)
-* The website Logo links users to Home page (add image)
-* Logged in user Nav bar (add image)
+* The navigation bar appears top of the page
+(add image, mobile image)
+* The website Logo links users to Home page (add image and mobile image)
+* Logged in user Nav bar (add image, mobile image)
 ## Footer
-* Footer with links to direct user to Facebook, Instagram, Twiter (add image)
+* Footer with links to direct user to Facebook, Instagram, Twiter (add image and mobile image)
 ## Register 
 * Users can register an account by entering Username, Email (optional), Password
-* Users who have already registered can click on Log In link, redirects to Log In page (add image)
+* Users who have already registered can click on Log In link, redirects to Log In page (add image and mobile image, message image)
 ## Log In
 * Users can login by entering Username and Password
-* Users who haven't already registered can click on Register link, redirects to Register page (add image)
+* Users who haven't already registered can click on Register link, redirects to Register page (add image and mobile image, message image)
+## Log Out
+* Users can Log Out by clicking on Logout link top of the page
+* Users can click on Log Out button, to log-out from site, or Exit link whitch redirects to home page(add image, mobile image)
+## Cocktail Recipe Detail
+* Recipe detail page have access only logged in users
+* Users can clikc on Get The cocktail link to view recipe details, redirects to cocktail recipe detail
+* Users can click on heart icon to like recipe
+## Comment Recipe
+* Comment recipe have acces only logged in users
+* Users can write comments in comment form on cocktail recipe detail page
+* After submission a success message displays
+* The comment does not appear until the admin approves the comment for publication (add image, mobile image, message image)
+## Add Cocktail Form
+* Users can click on Add Cocktail in top of the page
+* Provides a form to submit fields to complete to add cocktail recipes to the public and for CRUD functionality
+* The placeholder image is available if the user has not supplied a cocktail image(add images, mobile image)
+## Update Cocktail Recipe
+* Update cocktail recipe is available for logged in users
+* Clicking on Edit button belove cocktail image, user is able to update cocktail recipe
+* Users not able to update other user cocktail recipes, redirects to 403 page
+## Delete Cocktail Recipe
+* Delete cocktail recipe is available to logged in users
+* Clicking on Delete button belove cocktail image, user is redirected to Delete Cocktail page
+
