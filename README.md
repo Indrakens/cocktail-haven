@@ -64,5 +64,10 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * The website Logo links users to Home page (add image)
 * Logged in user Nav bar (add image)
 ## Footer
-Footer with links to direct user to Facebook, Instagram, Twiter (add image)
+* Footer with links to direct user to Facebook, Instagram, Twiter (add image)
 ## Register 
+* Users can register an account by entering Username, Email (optional), Password
+* Users who have already registered can click on Log In link, redirects to Log In page (add image)
+## Log In
+* Users can login by entering Username and Password
+* Users who haven't already registered can click on Register link, redirects to Register page (add image)
