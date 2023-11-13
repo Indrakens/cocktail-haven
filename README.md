@@ -1,9 +1,7 @@
 # COCKTAIL | HEAVEN
-Website designed to provide users learn and try cocktail recipes. Users can create their own cocktail recipes and share their cocktail creation skills with other users.
+Website designed to provide users learn and try cocktail recipes. Users can register to the site and once logged in they have access to all the site features. Registered users can create their own cocktail recipes and share their cocktail recipes with other users. Also can update or delete their own cocktail recipe. Users can like/ unlike cocktail recipes and also be involved in conversations related to chosen cocktail recipes by commenting on them. 
 [responsiv website image]
-# UX
-## Wireframe
-[add wireframe images]
+# DESIGN
 ## Color Scheme
 [add coclor cheme image]
 ## Typography
@@ -12,7 +10,10 @@ Website designed to provide users learn and try cocktail recipes. Users can crea
 * Images 
   * Cocktail images were searched and saved in file from [Google]( https://www.google.com/ ).
 * Icons
-  * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons. 
+  * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
+# UX
+## Wireframe
+[add wireframe images] 
 # EPICS
 * Site Admin [#21](https://github.com/users/Indrakens/projects/22?pane=issue&itemId=44337471)
 * Unregistered User [#22](https://github.com/users/Indrakens/projects/22?pane=issue&itemId=44337652)
@@ -54,7 +55,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * User - can view site content, register an account, log-in and log-out
 * Cocktail Recipes - log-in user can create, edit, delete it's own recipe
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
-# Features
+# FEATURES
 ## Home Page 
 * A welcoming homepage where users can register, and see cocktail recipe images with descriptions, created-on, number of likes, and login button (add image and mobile image)
 * Logged in user Home page (add image, mobile image)
@@ -90,8 +91,30 @@ The goal of the project is to create a cocktail recipe website. To provide users
 ## Update Cocktail Recipe
 * Update cocktail recipe is available for logged in users
 * Clicking on Edit button belove cocktail image, user is able to update cocktail recipe
-* Users not able to update other user cocktail recipes, redirects to 403 page
 ## Delete Cocktail Recipe
 * Delete cocktail recipe is available to logged in users
 * Clicking on Delete button belove cocktail image, user is redirected to Delete Cocktail page
-
+## 403 Error
+* Users not able to update other user cocktail recipes, redirects to 403 page
+* Users not able to delete other user cocktail recipes, redirects to 403 page (add images)
+## 404 Error
+* Page not found (add images)
+## 500 Error
+* Internal server error (add images)
+# TESTING
+Full testing can be seen [TESTING.md]() file.
+# TEHNOLOGY USED
+#### [HTML](https://en.wikipedia.org/wiki/HTML) - Used to build the front-end website
+#### [CSS](https://en.wikipedia.org/wiki/CSS) - Used to style the HTML
+#### [JavaScript](https://www.javascript.com/) - Used to add timeout function for messages
+#### [Python](https://www.python.org/) - Used as the back-end programming language
+#### [Django](https://www.djangoproject.com/) - Used as the Python framework for the website. 
+#### [Bootstrap](https://getbootstrap.com/) - Used as the front-end framework for responsiveness and pre-built components
+#### [Git](https://git-scm.com/) - Used for version control
+#### [GitHub](https://github.com/) - Used for online code storage
+#### [GitPod](https://www.gitpod.io/) - Used as a cloud-based IDE for development
+#### [ElephantSQL](https://customer.elephantsql.com/login) - Used as the Postgres database 
+#### [Heroku](https://id.heroku.com/) - Used for cloud based platform for deployment
+#### [Cloudinary](https://cloudinary.com/) - Used for host static files 
+#### [Gunicorn](https://gunicorn.org/) - Used as a website server provider
+#### [Psycopg2](https://pypi.org/project/psycopg2/) - Used as a postgres database adapter
