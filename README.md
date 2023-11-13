@@ -175,3 +175,16 @@ Creating a clone enables you to make a copy of the repository at that point in t
 * Navigate to your code editor of choice and within the terminal change the directory to the location you want to clone the repository to
 * Type 'git clone' and paste the https link you copied from github
 * Press enter and git will clone the repository to your local machine 
+# CONTENT AND RESOURCES
+### Django Documentation
+* Read through the django documentation multiple times
+* Used extensively during development of this project
+### W3 Schools
+* Used for reference throughout for css examples
+### Code Institute
+* The Code Institute reference material was used as a general reference for things that I had previously done during the course
+* Course content for portfolio project 4 helped able to complete this project
+# ACKNOWLEDGMENT
+* Graeme Taylor - my mentor who provided me with great feedback and guidance at the inception of this projec
+* Alan Bushell - our teacher, always a great mentor during stand-up. And who helped insure me to get true this project
+* To all the tutors in Code Institute
