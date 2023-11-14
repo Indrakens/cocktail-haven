@@ -30,9 +30,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False 
 
-ALLOWED_HOSTS = ['cocktailhaven-c675f9e827ad.herokuapp.com','8000-indrakens-cocktailheave-0b81gyrx00h.ws-eu106.gitpod.io']
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','localhost']
 
 
 # Application definition
