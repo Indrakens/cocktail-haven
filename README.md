@@ -2,7 +2,7 @@
 Website designed to provide users learn and try cocktail recipes. Users can register to the site and once logged in they have access to all the site features. Registered users can create their own cocktail recipes and share their cocktail recipes with other users. Also can update or delete their own cocktail recipe. Users can like/ unlike cocktail recipes and also be involved in conversations related to chosen cocktail recipes by commenting on them. 
 [responsiv website image]
 #
-The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN]()
+The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
 #
 # UX DESIGN
 ## Color Scheme
