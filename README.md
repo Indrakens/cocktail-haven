@@ -5,24 +5,24 @@ Website designed to provide users learn and try cocktail recipes. Users can regi
 The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
 #
 ## TABLE OF CONTENT
-* [UX]()
-* [DATABASE SCHEME]()
-* [UX DESIGN]()
-  * [Color Scheme]()
-  * [Fonts]()
-  * [Images]()
-  * [Icons]()
-  * [Wireframe]()
-* [EPICS]()
-* [USER STORIES]()
-* [SCOPE]()
-* [FEATURES]()
-* [TESTING]()
-* [TEHNOLOGY USED]()
-* [DEPLOYMENT]()
-* [FORKING AND CLONING]()
-* [CONTENT AND RESOURCES]()
-* [ACKNOWLEDGMENT]()    
+* [UX](https://github.com/Indrakens/cocktail-heaven#ux)
+* [DATABASE SCHEME](https://github.com/Indrakens/cocktail-heaven#database-scheme)
+* [UX DESIGN](https://github.com/Indrakens/cocktail-heaven#ux-design)
+  * [Color Scheme](https://github.com/Indrakens/cocktail-heaven#color-scheme)
+  * [Fonts](https://github.com/Indrakens/cocktail-heaven#fonts)
+  * [Images](https://github.com/Indrakens/cocktail-heaven#images)
+  * [Icons](https://github.com/Indrakens/cocktail-heaven#icons)
+  * [Wireframe](https://github.com/Indrakens/cocktail-heaven#wireframe)
+* [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
+* [USER STORIES](https://github.com/Indrakens/cocktail-heaven#user-stories)
+* [SCOPE](https://github.com/Indrakens/cocktail-heaven#scope)
+* [FEATURES](https://github.com/Indrakens/cocktail-heaven#features)
+* [TESTING](https://github.com/Indrakens/cocktail-heaven#testing)
+* [TEHNOLOGY USED](https://github.com/Indrakens/cocktail-heaven#tehnology-used)
+* [DEPLOYMENT](https://github.com/Indrakens/cocktail-heaven#deployment)
+* [FORKING AND CLONING](https://github.com/Indrakens/cocktail-heaven#forking-and-cloning)
+* [CONTENT AND RESOURCES](https://github.com/Indrakens/cocktail-heaven#content-and-resources)
+* [ACKNOWLEDGMENT](https://github.com/Indrakens/cocktail-heaven#acknowledgment)    
 # UX
 # DATABASE SCHEME
 (add img)
@@ -74,7 +74,7 @@ The full list of User Stories is available on the project [kanban board](https:/
 * CRUD 
   * As a User I can CRUD so that I can manage my cocktail recipes [#39](https://github.com/users/Indrakens/projects/22/views/1?pane=issue&itemId=44342407)
 # SCOPE
-The goal of the project is to create a cocktail recipe website. To provide users to find an ideal cocktail recipe for them and inspire them to create their own cocktail recipe and share it with other users. Allow logged-in users to have full CRUD functionality for their own  cocktail recipes and share their cocktail recipes with other users. Allow logged-in users to comment on a cocktail recipe to share their mixology skills with other users. The logged-in users have the opportunity to start practicing these cocktail recipes and share their experience making them with others. As the front-end users, the site Admin has full CRUD functionality in Django Admin panel. 
+The goal of the project is to create a cocktail recipe website. To provide users to find an ideal cocktail recipe for them and inspire them to create their own recipes and share them with other users. Allow logged-in users to have full CRUD functionality. Logged-in users can like, and comment on a cocktail recipe, and share their mixology skills with other users. As the front-end users, the site Admin has full CRUD functionality in the Django Admin panel.
 * User - can view site content, register an account, log-in and log-out
 * Cocktail Recipes - log-in user can create, edit, delete it's own recipe
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
