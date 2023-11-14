@@ -4,18 +4,38 @@ Website designed to provide users learn and try cocktail recipes. Users can regi
 #
 The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
 #
-# UX DESIGN
-## Color Scheme
-[add coclor cheme image]
-## Typography
-* Fonts
-  * The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
-* Images 
-  * Cocktail images were searched and saved in file from [Google]( https://www.google.com/ ).
-* Icons
-  * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
+## TABLE OF CONTENT
+* [UX]()
+* [DATABASE SCHEME]()
+* [UX DESIGN]()
+  * [Color Scheme]()
+  * [Fonts]()
+  * [Images]()
+  * [Icons]()
+  * [Wireframe]()
+* [EPICS]()
+* [USER STORIES]()
+* [SCOPE]()
+* [FEATURES]()
+* [TESTING]()
+* [TEHNOLOGY USED]()
+* [DEPLOYMENT]()
+* [FORKING AND CLONING]()
+* [CONTENT AND RESOURCES]()
+* [ACKNOWLEDGMENT]()    
 # UX
-## Wireframe
+# DATABASE SCHEME
+(add img)
+## UX DESIGN 
+###  Color Scheme
+[add coclor cheme image]
+### Fonts
+* The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
+### Images 
+  * Cocktail images were searched and saved in file from [Google]( https://www.google.com/ ).
+### Icons
+  * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
+### Wireframe
 [add wireframe images] 
 # EPICS
 * Site Admin [#21](https://github.com/users/Indrakens/projects/22?pane=issue&itemId=44337471)
