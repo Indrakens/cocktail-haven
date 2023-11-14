@@ -34,11 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
-if RENDER_EXTERNAL_HOSTNAME:
-  ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
-
-ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','local']
 
 
 # Application definition
