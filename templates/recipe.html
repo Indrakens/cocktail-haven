@@ -2,10 +2,10 @@
 {% block content %}
 
 {% load crispy_forms_tags %}
-<div class="main-head">
-    <div class="container">
-        <div class="row g-0">
-            <div class="col-md-6 main-head-text">
+<div class="container">
+    <div class="main-head">
+        <div class="row">
+            <div class="col-md-8 main-head-text">
                 <h1 class="cocktail-title text-white">{{ cocktail.name }}</h1>
                 <p class="cocktail-subtitle text-white">{{ cocktail.user }} | {{ cocktail.created_on }}</p>
             </div> 
@@ -24,21 +24,18 @@
 
 <div class="container">
     <div class="row">
-        <div class="col card mb-4  mt-3 left top">
+        <div class="col card left top">
             <div class="card-body">
                 <p class="card-text f-6" style="width: 40%;">{{ cocktail.serving | safe }} serving(s) | {{ cocktail.time | safe }}-mins
                 </p>
-                <p class="card-text" style="width: 20%;"><span class="card-heading">Ingredients:</span>
+                <p class="card-text" style="width: auto;"><span class="card-heading h2">Ingredients:</span>
                     <p class="card-text" style="width: 45%;">
                         {{ cocktail.ingredients | safe }}
                     </p>
-                    <p class="card-text" style="width: 40%;">
-                        {{ cocktail.additional | safe }}
-                    </p>
                 </p>
-                <p class="card-text" style="width: 40%;">     
-                    <span class="card-heading">Directions:  </span>     
-                    <p class="card-text" style="width: 50%;">
+                <p class="card-text" style="width: auto;">     
+                    <span class="card-heading h2">Directions:  </span>     
+                    <p class="card-text" style="width: auto;">
                         {{ cocktail.directions | safe }}
                     </p>
                 <div class="row">

@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 60vh;
+    height: 63vh;
     background-position: center;
     position: relative;
     margin: 0;
@@ -18,19 +18,17 @@
 }
 
 .image-text h1{
-    font-size: 6vw;
     font-weight: 700;
     color: #1A2D14;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     text-shadow: -2px -2px 2px rgb(249, 248, 248), 0 0 25px rgb(254, 254, 255), 0 0 15px rgb(240, 240, 244);
 }
 
 .image-text p{
     font-weight: 500;
-    font-size: 1.5vw;
     line-height: 0.8; 
     text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .sub-text{
@@ -170,17 +168,12 @@
 }
 
 /* Recipe detail page */
-.choices{
-    position: relative;
-    margin-top: 10px;
-}
-
 .main-head {
     margin-top: 10px;
     overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 25vh;
+    height: 30vh;
     width: 100%;
 }
 
@@ -188,7 +181,6 @@
     background-color: #B2D2B1;
     color: #FFFFFF;
     position: relative;
-    bottom: 70px;
 }
 
 .main-head-image {
@@ -201,8 +193,8 @@
     position: absolute;
     top: 0;
     right: 80%;
-    height: 145%;
-    width: 190%;
+    height: 100%;
+    width: 150%;
     background: #B2D2B1;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
@@ -211,7 +203,7 @@
 }
 
 .cocktail-title {
-    margin-top: 20%;
+    margin-top: 5%;
     margin-left: 5%;
     font-size: 50px;
 }
@@ -230,6 +222,10 @@
     color: #F74F4F;
     background: transparent;
     border: none;
+}
+
+.card-heading{
+    font-weight: 200;
 }
 
 /* Delete page */
