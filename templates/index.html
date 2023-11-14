@@ -37,7 +37,7 @@
                             <div class="image-container">
                                 {% if "placeholder" in recipe.featured_image.url %}
                                 <img class="card-img-top img-thumbnail"
-                                    src="../static/images/cocktail.jpg" width="100%" alt="mohito-cocktail-glass">
+                                    src="https://res.cloudinary.com/dinbzvx8s/image/upload/v1699958086/static/images/cocktail.7062657aa641.jpg" width="100%" alt="mohito-cocktail-glass">
                                 {% else %}
                                 <img class="card-img-top img-thumbnail" src=" {{ recipe.featured_image.url }}">
                                 {% endif %}
@@ -57,13 +57,13 @@
                                     <p class="d-grid gap-2 col-6 mx-auto"><a href="{% url 'account_login' %}"
                                             class="btn btn-signup btn-success">Log In</a></p>
                                     {% endif %}
-
+                            
                                     {% if user.is_authenticated %}
                                     <div class="choices col-md-12 g-0">
                                         <a href="{% url 'edit_cocktail' recipe.slug %}" class="btn btn-sm btn-success w-25 btn-signup">Edit</a>
                                         <a href="{% url 'delete_cocktail' recipe.slug %}" class="btn btn-sm btn-success w-25 btn-signup">Delete</a>
-                                    </div>
-                                    {% endif %}
+                                    </div> 
+                                    {% endif %} 
                                 </div>
 
                             </div>
