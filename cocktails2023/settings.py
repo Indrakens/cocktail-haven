@@ -34,7 +34,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','8000-indrakens-cocktailheave-9nbp2jih1pf.ws-eu106.gitpod.io']
+ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','8000-indrakens-cocktailheave-l3d2e2o1zaf.ws-eu106.gitpod.io']
 
 
 # Application definition

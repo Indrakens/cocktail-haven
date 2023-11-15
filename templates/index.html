@@ -59,9 +59,9 @@
                                     {% endif %}
                             
                                     {% if user.is_authenticated %}
-                                    <div class="choices col-md-12 g-0">
-                                        <a href="{% url 'edit_cocktail' recipe.slug %}" class="btn btn-sm btn-success w-25 btn-signup">Edit</a>
-                                        <a href="{% url 'delete_cocktail' recipe.slug %}" class="btn btn-sm btn-success w-25 btn-signup">Delete</a>
+                                    <div class="choices col-md-12">
+                                        <a href="{% url 'edit_cocktail' recipe.slug %}" class="btn btn-sm btn-success  btn-signup">Update</a>
+                                        <a href="{% url 'delete_cocktail' recipe.slug %}" class="btn btn-sm btn-success btn-signup">Delete</a>
                                     </div> 
                                     {% endif %} 
                                 </div>
