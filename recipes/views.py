@@ -138,7 +138,7 @@ class RecipeUpdate(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin,
             'ingredients',
             'directions'
         ]
-    template_name = 'add-cocktail-form.html'
+    template_name = 'edit-cocktail-form.html'
     success_url = reverse_lazy('home')
     success_message = "You have successfully updated a cocktail!" 
 
