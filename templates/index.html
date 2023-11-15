@@ -8,10 +8,10 @@
         <div class="row img-fluid position-absolute top-0 start-50 translate-middle-x">
 
             <div class="col-12 image-text text-center mx-auto">
-                <h1 class="display-2">Cocktail | Heaven</h1>
-                <p class="h5">Now, it's time for you to brush up on your mixology skills</p>
-                <p class="h5 pt-2">and learn a few classic cocktail recipes.</p>
-                <p class="h5 pt-2">Start practicing these cocktail recipes.</p>
+                <h1 class="display-2 d-inline-flex">Cocktail <span class="mx-2">|</span> Heaven</h1>
+                <p class="h4 d-inline-flex">Now, it's time for you to brush up on your mixology skills</p>
+                <p class="h4 pt-2 d-inline-flex">and learn a few classic cocktail recipes.</p>
+                <p class="h4 pt-2 d-inline-flex">Start practicing these cocktail recipes.</p>
                 {% if user.is_authenticated %}
                 <p class="invisible"><a href="{% url 'account_signup' %}">Register Now!</a></p>
                 {% else %}
@@ -20,8 +20,8 @@
             </div>
         </div>
     </div>
-    <div class="sub-text fs-5 text-muted text-center bg-white">
-        There's sure to be a classic cocktail on this list for you!
+    <div class="sub-text text-muted bg-white py-2">
+        <p class="pt-2 text-center">There's sure to be a classic cocktail on this list for you!</p>
     </div>
 </header>
 

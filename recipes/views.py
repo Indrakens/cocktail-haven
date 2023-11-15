@@ -101,7 +101,6 @@ class RecipeCreate(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
     fields = [
             'name',
             'slug',
-            'user',
             'featured_image',
             'featured_image_alt',
             'serving',
