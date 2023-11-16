@@ -36,12 +36,12 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in recipe.featured_image.url %}
-                                <img class="card-img-top img-thumbnail"
+                                <img class="card-img-top img-thumbnail" style="width: 100%; height: 100%;"
                                     src="https://res.cloudinary.com/dinbzvx8s/image/upload/v1699958086/static/images/cocktail.7062657aa641.jpg" width="100%" alt="mohito-cocktail-glass">
                                 {% else %}
-                                <img class="card-img-top img-thumbnail" src=" {{ recipe.featured_image.url }}">
+                                <img class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" src=" {{ recipe.featured_image.url }}">
                                 {% endif %}
-                                <div class="image-flash">
+                                <div class="image-flash py-4">
                                     <p class="cocktail h6"><strong>Cocktail - {{ recipe.name }}</strong></p>
                                 </div>
                                 <div class="post-link">

@@ -64,7 +64,7 @@
     background-color: transparent;
     font-family: Ubuntu, sans-serif;
     font-size: 0.9rem;
-    font-weight: 100;
+    font-weight: 200;
     color: #4A4A4F;
 }
 
@@ -88,7 +88,7 @@
     position: absolute;
     bottom: 38%;
     min-width: 30%;
-    left: 8px;
+    left: 9px;
     background-color: #8CBC8A;
     opacity: 85%;
     padding: 8px;
