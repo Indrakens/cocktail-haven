@@ -7,15 +7,15 @@
     <div class="image-container-fluid position-relative text-justify">
         <div class="row img-fluid position-absolute top-0 start-50 translate-middle-x">
 
-            <div class="col-12 image-text text-center mx-auto">
-                <h1 class="display-2 d-inline-flex">Cocktail <span class="mx-2">|</span> Heaven</h1>
-                <p class="h4 d-inline-flex">Now, it's time for you to brush up on your mixology skills</p>
-                <p class="h4 pt-2 d-inline-flex">and learn a few classic cocktail recipes.</p>
-                <p class="h4 pt-2 d-inline-flex">Start practicing these cocktail recipes.</p>
+            <div class="col-12 image-text text-center mx-auto" style="width: 850px;">
+                <h1 class="display-1 d-inline-flex pt-2">Cocktail <span class="mx-2">|</span> Heaven</h1>
+                <p class="h3 d-inline-flex pt-2">Now, it's time for you to brush up on your mixology skills</p>
+                <p class="h3 pt-2 d-inline-flex">and learn a few classic cocktail recipes.</p>
+                <p class="h3 pt-2 d-inline-flex">Start practicing these cocktail recipes.</p>
                 {% if user.is_authenticated %}
                 <p class="invisible"><a href="{% url 'account_signup' %}">Register Now!</a></p>
                 {% else %}
-                <p><a href="{% url 'account_signup' %}" class="btn btn-lg btn-success btn-signup">Register Now!</a></p>
+                <p><a href="{% url 'account_signup' %}" class="btn btn-lg btn-success btn-signup px-4">Register Now!</a></p>
                 {% endif %}
             </div>
         </div>
