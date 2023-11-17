@@ -140,6 +140,21 @@
     text-decoration: underline;
 }
 
+.btn-signup {
+    text-shadow: 1px 1px 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-signup:hover {
+    background-color: #B2D2B1;
+}
+
+.btn-login{
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Pagination */
 .pagination a{
     text-decoration: none;
     color: #198754;
@@ -156,19 +171,6 @@
     background: none; 
 }
 
-.btn-signup {
-    text-shadow: 1px 1px 1px black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.btn-signup:hover {
-    background-color: #B2D2B1;
-}
-
-.btn-login{
-    text-shadow: 1px 1px 1px black;
-}
 
 /* Recipe detail page */
 .main-head {
@@ -247,6 +249,7 @@
 .return-home {
     color: #198754;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .return-home:hover{
