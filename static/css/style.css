@@ -22,12 +22,14 @@
     color: #1A2D14;
     margin-bottom: 25px;
     text-shadow: -2px -2px 2px rgb(249, 248, 248), 0 0 25px rgb(254, 254, 255), 0 0 15px rgb(240, 240, 244);
+    padding-left: 25px;
 }
 
 .image-text p{
     font-weight: 500;
     line-height: 0.8; 
     text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;
+    padding-left: 25px;
     margin-top: 2px;
 }
 
@@ -35,6 +37,7 @@
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
     color: #4A4A4F;
+    padding: 45px;
 }
 
 
