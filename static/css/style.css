@@ -87,10 +87,10 @@
     position: absolute;
     bottom: 38%;
     min-width: 30%;
-    left: 8px;
+    left: 9px;
     background-color: #8CBC8A;
     opacity: 90%;
-    padding: 12px;
+    padding: 8px;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -176,7 +176,7 @@
     overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 30vh;
+    height: 43vh;
     width: 100%;
 }
 
@@ -209,6 +209,7 @@
     margin-top: 5%;
     margin-left: 5%;
     font-size: 50px;
+    padding-top: 30px;
 }
 
 .cocktail-subtitle {
