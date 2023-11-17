@@ -34,14 +34,14 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <div class="image-container">
+                            <div class="image-container img-fluid">
                                 {% if "placeholder" in recipe.featured_image.url %}
-                                <img class="card-img-top img-thumbnail" style="width: 100%; height: 100%;"
-                                    src="https://res.cloudinary.com/dinbzvx8s/image/upload/v1699958086/static/images/cocktail.7062657aa641.jpg" width="100%" alt="mohito-cocktail-glass">
+                                <img class="card-img-top img-thumbnail"
+                                    src="https://res.cloudinary.com/dinbzvx8s/image/upload/v1699958086/static/images/cocktail.7062657aa641.jpg" width="100%" height="auto" alt="mohito-cocktail-glass">
                                 {% else %}
-                                <img class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" src=" {{ recipe.featured_image.url }}">
+                                <img class="card-img-top img-thumbnail" style="max-width: 100%; height: auto;" src=" {{ recipe.featured_image.url }}">
                                 {% endif %}
-                                <div class="image-flash py-4">
+                                <div class="image-flash">
                                     <p class="cocktail h6"><strong>Cocktail - {{ recipe.name }}</strong></p>
                                 </div>
                                 <div class="post-link">
