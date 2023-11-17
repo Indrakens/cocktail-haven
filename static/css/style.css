@@ -86,7 +86,7 @@
 .image-flash {
     position: absolute;
     bottom: 38%;
-    min-width: 30%;
+    max-width: 65%;
     left: 9px;
     background-color: #8CBC8A;
     opacity: 90%;
@@ -96,7 +96,6 @@
 
 .cocktail {
     color: #D8FDDA;
-    margin: 4px;
     text-transform: uppercase;
     font-family: Ubuntu, sans-serif;
     font-weight: 400;

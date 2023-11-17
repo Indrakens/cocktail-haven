@@ -41,8 +41,8 @@
                                 {% else %}
                                 <img class="card-img-top img-thumbnail" style="max-width: 100%; height: auto;" src=" {{ recipe.featured_image.url }}">
                                 {% endif %}
-                                <div class="image-flash">
-                                    <p class="cocktail h6"><strong>Cocktail - {{ recipe.name }}</strong></p>
+                                <div class="image-flash img-fluid">
+                                    <p class="cocktail h4"><strong>{{ recipe.name }}</strong></p>
                                 </div>
                                 <div class="post-link">
                                     <p class="card-text" style="width: 100%;">{{ recipe.description }}</p>
