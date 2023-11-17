@@ -90,7 +90,6 @@
     left: 9px;
     background-color: #8CBC8A;
     opacity: 90%;
-    padding: 8px;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -177,7 +176,7 @@
     overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 43vh;
+    height: 40vh;
     width: 100%;
 }
 
