@@ -15,7 +15,7 @@ class Recipe(models.Model):
     featured_image_alt = models.CharField(max_length=100, null=False, blank=False, default='green-lime-cocktail')
     serving = models.IntegerField()
     time = models.IntegerField()
-    description = models.TextField(blank=False)
+    description = models.CharField(max_length=100, unique=True)
     updated_on = models.DateTimeField(auto_now=True)
     ingredients = models.TextField(blank=False)
     directions = models.TextField()

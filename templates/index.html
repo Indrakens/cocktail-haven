@@ -45,7 +45,7 @@
                                     <p class="cocktail h6"><strong>Cocktail - {{ recipe.name }}</strong></p>
                                 </div>
                                 <div class="post-link">
-                                    <p class="card-text">{{ recipe.description }}</p>
+                                    <p class="card-text" style="width: 100%;">{{ recipe.description }}</p>
                                     {% if user.is_authenticated %}
                                     <div class="recipe-link">
                                         <a href="{% url 'recipe' recipe.slug %}"><i class="fa fa-arrow-right"></i> Get
