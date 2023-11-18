@@ -22,7 +22,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [TEHNOLOGY USED](https://github.com/Indrakens/cocktail-heaven#tehnology-used)
 * [DEPLOYMENT](https://github.com/Indrakens/cocktail-heaven#deployment)
 * [FORKING AND CLONING](https://github.com/Indrakens/cocktail-heaven#forking-and-cloning)
-* [CREDITS]()
+* [CREDITS](https://github.com/Indrakens/cocktail-heaven#credits)
 * [CONTENT AND RESOURCES](https://github.com/Indrakens/cocktail-heaven#content-and-resources)
 * [ACKNOWLEDGMENT](https://github.com/Indrakens/cocktail-heaven#acknowledgment)    
 # UX
@@ -129,7 +129,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 ### 500 Error
 * Internal server error (add images)
 # TESTING
-Full testing can be seen [TESTING.md]() file.
+Full testing can be seen [TESTING.md](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md) file.
 #
 # TEHNOLOGY USED
 #### [HTML](https://en.wikipedia.org/wiki/HTML) - Used to build the front-end website
