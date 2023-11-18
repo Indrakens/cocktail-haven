@@ -36,8 +36,10 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 ### Icons
   * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
 ### Wireframe
-[add wireframe images] 
-# EPICS
+[add wireframe images]
+# AGILE
+The Agile methodology was used to plan the project. Each user story was linked to an Epic. Issues were used to create Epics and User Stories with a custom template. Once work on the website story was complete, the user story was moved into the "Done" column.
+## EPICS
 * Site Admin [#21](https://github.com/users/Indrakens/projects/22?pane=issue&itemId=44337471)
 * Unregistered User [#22](https://github.com/users/Indrakens/projects/22?pane=issue&itemId=44337652)
 * Login User [#23](https://github.com/users/Indrakens/projects/22?pane=issue&itemId=44337783)
