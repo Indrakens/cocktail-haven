@@ -9,3 +9,4 @@ class TestCommentForm(TestCase):
         form = CommentForm()
         self.assertEqual(form.Meta.model, Comment)
         self.assertEqual(form.Meta.fields, ('body',)) 
+        

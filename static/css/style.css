@@ -247,6 +247,29 @@
     text-decoration: underline;
 }
 
+/* Register, Login, Logout pages*/
+.col-md-8 h3 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #4A4A4F;
+}
+
+.col-md-8 h2 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #4A4A4F;
+    padding-bottom: 8px;
+}
+
+.col-md-8 p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #4A4A4F;
+}
+
 /* 403, 404, 500 pages */
 .return-home {
     color: #198754;
@@ -273,28 +296,6 @@
     color: #4A4A4F;
 }
 
-/* Register, Login, Logout pages*/
-.col-md-8 h3 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    color: #4A4A4F;
-}
-
-.col-md-8 h2 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: #4A4A4F;
-    padding-bottom: 8px;
-}
-
-.col-md-8 p {
-    font-family: Ubuntu, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #4A4A4F;
-}
 
 /* Media screens */
 @media screen and (max-width: 990px){

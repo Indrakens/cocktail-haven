@@ -44,8 +44,3 @@ class TestViews(TestCase):
         """
         response = self.client.get(f'/delete_cocktail/')
         self.assertEqual(response.status_code, 302)      
-
-        
-
-        
-        

@@ -1,6 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse, resolve
-from .views import (RecipeList, RecipeCreate, RecipeUpdate, RecipeDelete, RecipeDetail, RecipeLike)
+from .views import (RecipeList, RecipeCreate,
+                    RecipeUpdate, RecipeDelete, RecipeDetail, RecipeLike)
 
 
 class TestUrls(TestCase):
@@ -24,7 +25,7 @@ class TestUrls(TestCase):
         Redirects to add-cocktail-form page
         """
         url = reverse('edit_cocktail', args=['slug'])
-        self.assertEqual(resolve(url).func.view_class, RecipeUpdate) 
+        self.assertEqual(resolve(url).func.view_class, RecipeUpdate)
 
     def test_delete_cocktail_url_resolves(self):
         """
@@ -38,11 +39,11 @@ class TestUrls(TestCase):
         Redirects to recipe page
         """
         url = reverse('recipe', args=['slug'])
-        self.assertEqual(resolve(url).func.view_class, RecipeDetail) 
+        self.assertEqual(resolve(url).func.view_class, RecipeDetail)
 
     def test_recipe_like_url_resolves(self):
         """
         Redirects to recipe page
         """
         url = reverse('cocktail_like', args=['slug'])
-        self.assertEqual(resolve(url).func.view_class, RecipeLike)                  
+        self.assertEqual(resolve(url).func.view_class, RecipeLike)
