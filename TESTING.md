@@ -8,8 +8,6 @@
 | User can create an account  |    PASS   |
 | User can log-in             |    PASS   |
 | User can log-out            |    PASS   |
-### View Site
-
 ### Navigation Unregistered User
 |     TEST                                    |  RESULTS  |
 |-------------|:-----:|
@@ -32,6 +30,7 @@
 | User is redirected to Update Cocktail page |    PASS   |
 | User can delete cocktail recipe            |    PASS   |
 | User is redirected to Delete Cocktail page |    PASS   |
+| User can view cocktail recipe detail page  |    PASS   |
 | User can like cocktail recipe              |    PASS   |
 | User can comment cocktail recipe           |    PASS   |
 ### Admin
