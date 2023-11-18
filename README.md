@@ -13,6 +13,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
   * [Images](https://github.com/Indrakens/cocktail-heaven#images)
   * [Icons](https://github.com/Indrakens/cocktail-heaven#icons)
   * [Wireframe](https://github.com/Indrakens/cocktail-heaven#wireframe)
+* [AGILE](https://github.com/Indrakens/cocktail-heaven#agile)  
 * [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
 * [USER STORIES](https://github.com/Indrakens/cocktail-heaven#user-stories)
 * [SCOPE](https://github.com/Indrakens/cocktail-heaven#scope)
@@ -21,6 +22,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [TEHNOLOGY USED](https://github.com/Indrakens/cocktail-heaven#tehnology-used)
 * [DEPLOYMENT](https://github.com/Indrakens/cocktail-heaven#deployment)
 * [FORKING AND CLONING](https://github.com/Indrakens/cocktail-heaven#forking-and-cloning)
+* [CREDITS]()
 * [CONTENT AND RESOURCES](https://github.com/Indrakens/cocktail-heaven#content-and-resources)
 * [ACKNOWLEDGMENT](https://github.com/Indrakens/cocktail-heaven#acknowledgment)    
 # UX
@@ -32,7 +34,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 ### Fonts
 * The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
 ### Images 
-  * Cocktail images were searched and saved in file from [Google]( https://www.google.com/ ).
+  * Cocktail logo and header image were searched and saved in file from [Google]( https://www.google.com/ ).
 ### Icons
   * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
 ### Wireframe
@@ -197,6 +199,9 @@ Creating a clone enables you to make a copy of the repository at that point in t
 * Navigate to your code editor of choice and within the terminal change the directory to the location you want to clone the repository to
 * Type 'git clone' and paste the https link you copied from github
 * Press enter and git will clone the repository to your local machine 
+# CREDITS
+* Cocktail Images - was downloaded from [good houskeeping](https://www.goodhousekeeping.com/) website
+* Cocktail Recipes - was taken from [good houskeepeing](https://www.goodhousekeeping.com/) website
 # CONTENT AND RESOURCES
 ### Django Documentation
 * Read through the django documentation multiple times
