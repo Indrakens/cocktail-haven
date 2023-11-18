@@ -70,14 +70,6 @@
     color: #4A4A4F;
 }
 
-.card-heading{
-    font-family: Ubuntu, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 200;
-    color: #4A4A4F;
-    text-decoration: underline;
-}
-
 .img-thumbnail{
     padding: 8px;
 }
@@ -88,20 +80,21 @@
 
 .image-flash {
     position: absolute;
-    bottom: 38%;
-    max-width: 65%;
+    bottom: 35%;
+    min-width: 30%;
     left: 9px;
     background-color: #8CBC8A;
     opacity: 90%;
     text-shadow: 1px 1px 1px black;
 }
 
-.cocktail {
+.image-flash p {
     color: #D8FDDA;
     text-transform: uppercase;
     font-family: Ubuntu, sans-serif;
-    font-weight: 400;
-}    
+    text-align: center;
+    margin: 4px;
+}
 
 .post-link {
     text-decoration: none;
@@ -219,6 +212,14 @@
     margin-left: 5%;
 }
 
+.card-heading{
+    font-family: Ubuntu, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: #4A4A4F;
+    text-decoration: underline;
+}
+
 .btn-like {
     color: #F74F4F;
     border: none;
@@ -293,4 +294,91 @@
     font-size: 1.2rem;
     font-weight: 300;
     color: #4A4A4F;
+}
+
+/* Media screens */
+@media screen and (max-width: 990px){
+    .image-flash {
+        position: absolute;
+        bottom: 45%;
+        min-width: 28%;
+        left: 9px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .image-flash {
+        position: absolute;
+        bottom: 45%;
+        min-width: 25%;
+        left: 9px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .image-flash {
+        position: absolute;
+        bottom: 50%;
+        min-width: 30%;
+        left: 9px;
+        font-size: 80%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .image-flash {
+        position: absolute;
+        bottom: 50%;
+        min-width: 20%;
+        left: 9px;
+        font-size: 80%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 785px){
+    .image-flash {
+        position: absolute;
+        bottom: 50%;
+        min-width: 20%;
+        left: 9px;
+        font-size: 80%;
+    }
+
+    .card-text{
+        font-size: 80%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .image-flash {
+        position: absolute;
+        bottom: 25%;
+        min-width: 40%;
+        left: 9px;
+        font-size: 150%;
+    }
+
+    .card-text{
+        font-size: 150%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 100%;
+    }
 }
