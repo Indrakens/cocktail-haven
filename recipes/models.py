@@ -12,7 +12,8 @@ class Recipe(models.Model):
 
     name = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cocktail")
+    user = models.ForeignKey(
+         User, on_delete=models.CASCADE, related_name="cocktail")
     featured_image = CloudinaryField("image", default="placeholder")
     featured_image_alt = models.CharField(
         max_length=100, null=False, blank=False, default="green-lime-cocktail"
@@ -25,7 +26,8 @@ class Recipe(models.Model):
     directions = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    likes = models.ManyToManyField(User, related_name="cocktail_like", blank=True)
+    likes = models.ManyToManyField(
+        User, related_name="cocktail_like", blank=True)
 
     class Meta:
         """
