@@ -364,6 +364,26 @@
     }
 }
 
+@media screen and (max-width: 750px){
+    .image-flash {
+        position: absolute;
+        bottom: 25%;
+        min-width: 40%;
+        left: 9px;
+        font-size: 150%;
+    }
+
+    .card-text{
+        font-size: 150%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 150%;
+    }
+}
+
+
 @media screen and (max-width: 720px){
     .image-flash {
         position: absolute;
@@ -380,5 +400,81 @@
     .recipe-link a{
         width: 100%;
         font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .image-flash {
+        position: absolute;
+        bottom: 30%;
+        min-width: 40%;
+        left: 9px;
+        font-size: 150%;
+    }
+
+    .card-text{
+        font-size: 140%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-flash {
+        position: absolute;
+        bottom: 30%;
+        min-width: 40%;
+        left: 9px;
+        font-size: 150%;
+    }
+
+    .card-text{
+        font-size: 140%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .image-flash {
+        position: absolute;
+        bottom: 40%;
+        min-width: 40%;
+        left: 9px;
+        font-size: 150%;
+    }
+
+    .card-text{
+        font-size: 100%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 322px){
+    .image-flash {
+        position: absolute;
+        bottom: 45%;
+        min-width: 40%;
+        left: 9px;
+        font-size: 100%;
+    }
+
+    .card-text{
+        font-size: 65%;
+    }
+
+    .recipe-link a{
+        width: 100%;
+        font-size: 80%;
     }
 }
