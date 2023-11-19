@@ -29,8 +29,10 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 # DATABASE SCHEME
 (add img)
 ## UX DESIGN 
-###  Color Scheme
-[add coclor cheme image]
+### Color Scheme
+|     |        |
+|----|------|
+| Color Palette [COOLORS](https://coolors.co/) | ![color palette](https://github.com/Indrakens/heaven1/assets/127971416/3fc6e434-d333-4f46-b278-37251a853f40)|
 ### Fonts
 * The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
 ### Images 
