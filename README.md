@@ -12,7 +12,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
   * [Fonts](https://github.com/Indrakens/cocktail-heaven#fonts)
   * [Images](https://github.com/Indrakens/cocktail-heaven#images)
   * [Icons](https://github.com/Indrakens/cocktail-heaven#icons)
-  * [Wireframe](https://github.com/Indrakens/cocktail-heaven#wireframe)
+* [Wireframe](https://github.com/Indrakens/cocktail-heaven#wireframe)
 * [AGILE](https://github.com/Indrakens/cocktail-heaven#agile)  
 * [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
 * [USER STORIES](https://github.com/Indrakens/cocktail-heaven#user-stories)
@@ -37,8 +37,34 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
   * Cocktail logo and header image were searched and saved in file from [Google]( https://www.google.com/ ).
 ### Icons
   * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
-### Wireframe
-[add wireframe images]
+# WIREFRAME
+## Home 
+|                   |                |
+|----------|---------|
+| Unregistered User Home Page| ![New Wireframe 1](https://github.com/Indrakens/heaven1/assets/127971416/cfa036c6-79e8-4a12-81a7-86ce93f4265e)|
+| LogIn User Home Page       | ![New Wireframe 1 (2)](https://github.com/Indrakens/heaven1/assets/127971416/b3a0370f-f091-451b-8980-482529e8804b)|
+## Register / LogIn
+|              |              |
+|---------|---------|
+| Register Account  | ![register](https://github.com/Indrakens/heaven1/assets/127971416/cb5183ce-5d40-4c42-b077-42a455b696d2)|
+| LogIn    | ![login](https://github.com/Indrakens/heaven1/assets/127971416/460373ff-b6a4-447b-9003-a223e4a9c470)|
+## Recipe Page
+|        |       |
+|-------|----------|
+| Cocktail Recipe Detail Page | ![recipe detail](https://github.com/Indrakens/heaven1/assets/127971416/b095094a-d8ab-4bda-b089-2520d054aad6)|
+## Add Cocktail
+|         |         |
+|------|--------|
+| Add Cocktail  | ![add-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/ab5fc702-bdfe-479e-b5c3-caecffd159d3)|
+## Edit / Delete
+|        |         |
+|--------|---------|
+| Update Cocktail | ![update-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/6bb4b479-fe27-426c-8ac7-678c2ba18555)|
+| Delete Cocktail | ![delete](https://github.com/Indrakens/heaven1/assets/127971416/3bd0ca0b-16b6-421d-9d9a-79589695f366)|
+## Forbidden Access
+|       |       |
+|------|------|
+| Forbidden Access | ![403](https://github.com/Indrakens/heaven1/assets/127971416/cae2c54f-4408-4aab-b028-e2c0134e899b)| 
 # AGILE
 The Agile methodology was used to plan the project. Each user story was linked to an Epic. Issues were used to create Epics and User Stories with a custom template. Once work on the website story was complete, the user story was moved into the "Done" column.
 ## EPICS
