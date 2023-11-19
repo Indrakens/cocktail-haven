@@ -35,8 +35,12 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 | Color Palette [COOLORS](https://coolors.co/) | ![color palette](https://github.com/Indrakens/heaven1/assets/127971416/3fc6e434-d333-4f46-b278-37251a853f40)|
 ### Fonts
 * The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
-### Images 
-  * Cocktail logo and header image were searched and saved in file from [Google]( https://www.google.com/ ).
+### Images
+|          |          |
+|-------|-------|
+| Logo image was searched and saved in file [LOGO IMAGE](https://www.google.com/search?q=cocktail+logo&tbm=isch&ved=2ahUKEwi67K6yjNGCAxWtXUEAHcJxArgQ2-cCegQIABAA&oq=cocktail+logo&gs_lcp=CgNpbWcQARgAMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABCABBCKBRBDOgYIABAHEB5Q-xBYjB5gtjFoAHAAeACAAZIBiAHzBJIBAzcuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=IopaZbrTOa27hbIPwuOJwAs&bih=923&biw=1903&hl=en#imgrc=VZcki_BNEoSS1M)| ![logo](https://github.com/Indrakens/heaven1/assets/127971416/7c206e9e-72e1-40c6-bd50-7b69c422720a)|
+| Header image was searched and saved in file [HEADER IMAGE]( https://www.google.com/search?q=cocktails+green&tbm=isch&ved=2ahUKEwik5765iNGCAxXMTkEAHWwLDkcQ2-cCegQIABAA&oq=cocktails&gs_lcp=CgNpbWcQARgBMgQIIxAnMgQIIxAnMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgUIABCABDIKCAAQgAQQigUQQzIKCAAQgAQQigUQQ1AAWABg5A9oAHAAeACAATmIATmSAQExmAEAqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=AIZaZaTnCMydhbIP7Ja4uAQ&bih=923&biw=1920#imgrc=LVQx2cFOvohiSM )| ![Green-Cocktail](https://github.com/Indrakens/heaven1/assets/127971416/baab3fcc-c011-4001-aec9-c647fa826f0a)|
+| Placeholder image was searched and saved in file - [PLACEHOLDER IMAGE](https://www.google.com/search?q=cocktails+green+vector+logo&tbm=isch&ved=2ahUKEwjy4LadidGCAxWmXEEAHasFB_MQ2-cCegQIABAA&oq=cocktails+green+vector+logo&gs_lcp=CgNpbWcQAzoECCMQJ1ChDlj9I2C5KGgAcAB4AIABjwKIAbwGkgEFNC4wLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0YZaZbK0LKa5hbIPq4ucmA8&bih=923&biw=1920#imgrc=30DceCdjDVQoDM)| ![lime-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/d6a86091-013f-4a02-a1eb-804e47dfb61c)|
 ### Icons
   * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
 # WIREFRAME
