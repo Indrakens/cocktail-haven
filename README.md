@@ -35,7 +35,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 |----|------|
 | Color Palette [COOLORS](https://coolors.co/) | ![color palette](https://github.com/Indrakens/heaven1/assets/127971416/3fc6e434-d333-4f46-b278-37251a853f40)|
 ### Fonts
-* The website uses 'Ubuntu',sans-serif font from [Google Fonts]( https://fonts.google.com/?query=ubuntu ) and 'Lato',sans-serif font from [Google Fonts](https://fonts.google.com/?query=lato) .
+* The website uses ['UBUNTU'](https://fonts.google.com/?query=ubuntu) and ['LATO'](https://fonts.google.com/?query=lato) fonts from [Google Fonts](https://fonts.google.com/?query=lato) .
 ### Images
 |          |          |
 |-------|-------|
@@ -120,7 +120,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |           |              |
 |------|-------|
 | Welcoming Header | ![IMG_1260](https://github.com/Indrakens/heaven1/assets/127971416/4cf59f1e-c5bb-4392-9385-a47129a483c5)|
-| Displays cocktail images, cocktail description. users can click on Login or Register link to view cocktail recipe. Displays created-on and number of likes | ![IMG_1264](https://github.com/Indrakens/heaven1/assets/127971416/4539a57b-630d-4813-af3d-0d3e749ea3ab)|
+| Displays cocktail images, cocktail description, created-on and number of likes. Users can Login or Register by clickin on links to get recipe | ![IMG_1264](https://github.com/Indrakens/heaven1/assets/127971416/4539a57b-630d-4813-af3d-0d3e749ea3ab)|
 | LogIn User - Welcoming Header | ![IMG_1265](https://github.com/Indrakens/heaven1/assets/127971416/a9da2687-c69f-4096-819b-32ba3ef0a6cb)|
 | LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, edit and delete button, created-on, number of likes | ![IMG_1267](https://github.com/Indrakens/heaven1/assets/127971416/2018ebca-8cdd-41ce-a96d-b0cab77c8b69)|
 ### Navigation Bar
@@ -148,7 +148,8 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |------|------|
 | Log In | ![IMG_1285](https://github.com/Indrakens/heaven1/assets/127971416/f862698d-58be-4973-952a-9db18dcb7dd7)|
 ### Log Out
-* Users can click on Log Out button, to log-out from site, or Exit link whitch redirects to home page
+* To log-out click on Log Out button
+* Exit log-out page click on Exit link, redirects to homepage
 
 |      |      |
 |------|------|
@@ -173,16 +174,35 @@ The goal of the project is to create a cocktail recipe website. To provide users
 ### Add Cocktail Form
 * Users can click on Add Cocktail in top of the page
 * Provides a form to submit fields to complete to add cocktail recipes to the public and for CRUD functionality
-* The placeholder image is available if the user has not supplied a cocktail image(add images, mobile image)
+* The placeholder image is available if the user has not supplied a cocktail image
+
+|     |       |
+|-----|------|
+| Add Cocktail | ![IMG_1290](https://github.com/Indrakens/heaven1/assets/127971416/fc08f304-ee3c-4dfb-a53a-92c49c1c789b)|
 ### Update Cocktail Recipe
 * Update cocktail recipe is available for logged in users
 * Clicking on Edit button belove cocktail image, user is able to update cocktail recipe
+
+|      |      |
+|-----|------|
+| Update Cocktail | ![IMG_1291](https://github.com/Indrakens/heaven1/assets/127971416/70d0c5c0-0552-4c30-bb50-fa6dfd1a0736)|
 ### Delete Cocktail Recipe
 * Delete cocktail recipe is available to logged in users
 * Clicking on Delete button belove cocktail image, user is redirected to Delete Cocktail page
-### 403 Error
-* Users not able to update other user cocktail recipes, redirects to 403 page
-* Users not able to delete other user cocktail recipes, redirects to 403 page (add images)
+* To delete recipe click on delete button
+* To exit click on Exit link, redirects to home page
+
+|       |      |
+|-----|-----|
+| Delete Cocktail | ![IMG_1292](https://github.com/Indrakens/heaven1/assets/127971416/189ab783-41ea-4123-885d-5b934202a495)|
+### Forbidden Access
+* Users not able to update and delete other user cocktail recipes, redirects to forbidden acces page
+* To exit page click on Home Page link, redirects to home page
+
+|     |      |
+|------|------|
+| Forbidden Access | ![IMG_1294](https://github.com/Indrakens/heaven1/assets/127971416/496203dc-506b-439a-b3a4-515eaba0b959)|
+
 ### Footer
 * Footer with links to direct user to Facebook, Instagram, Twiter (add image and mobile image)
 # TESTING
