@@ -1,5 +1,6 @@
 # COCKTAIL | HEAVEN
 Website designed to provide users learn and try cocktail recipes. Users can register to the site and once logged in they have access to all the site features. Registered users can create their own cocktail recipes and share their cocktail recipes with other users. Also can update or delete their own cocktail recipe. Users can like/ unlike cocktail recipes and also be involved in conversations related to chosen cocktail recipes by commenting on them. 
+#
 ![IMG_1258](https://github.com/Indrakens/heaven1/assets/127971416/ec980fd9-b67e-41f9-b3fe-c4a4128ffaf0)
 #
 The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
@@ -116,33 +117,59 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
 # FEATURES
 ### Home Page 
-* A welcoming homepage where users can register, and see cocktail recipe images with descriptions, created-on, number of likes, and login button (add image and mobile image)
-* Logged in user Home page (add image, mobile image)
+|           |              |
+|------|-------|
+| Welcoming Header | ![IMG_1260](https://github.com/Indrakens/heaven1/assets/127971416/4cf59f1e-c5bb-4392-9385-a47129a483c5)|
+| Displays cocktail images, cocktail description. users can click on Login or Register link to view cocktail recipe. Displays created-on and number of likes | ![IMG_1264](https://github.com/Indrakens/heaven1/assets/127971416/4539a57b-630d-4813-af3d-0d3e749ea3ab)|
+| LogIn User - Welcoming Header | ![IMG_1265](https://github.com/Indrakens/heaven1/assets/127971416/a9da2687-c69f-4096-819b-32ba3ef0a6cb)|
+| LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, edit and delete button, created-on, number of likes | ![IMG_1267](https://github.com/Indrakens/heaven1/assets/127971416/2018ebca-8cdd-41ce-a96d-b0cab77c8b69)|
 ### Navigation Bar
 * The navigation bar appears top of the page
-(add image, mobile image)
-* The website Logo links users to Home page (add image and mobile image)
-* Logged in user Nav bar (add image, mobile image)
-### Footer
-* Footer with links to direct user to Facebook, Instagram, Twiter (add image and mobile image)
+
+|      |       |
+|-------|---------|
+| Nav Bar | ![E8B31B85-81D6-4CCE-98DE-B86A24EC4CA0](https://github.com/Indrakens/heaven1/assets/127971416/65825968-6698-4405-8471-fbb521fde479)|
+| LogIn User - Nav Bar | ![46D0A134-400E-4D13-ADB3-32CCF9CB34EB](https://github.com/Indrakens/heaven1/assets/127971416/c4ad9e19-632f-48db-aaff-3350859b9b69)|
+| Logo redirects User to Home page | ![l1](https://github.com/Indrakens/heaven1/assets/127971416/512f33b9-e044-4068-9c06-8b24116e2d8c)|
 ### Register 
-* Users can register an account by entering Username, Email (optional), Password
-* Users who have already registered can click on Log In link, redirects to Log In page (add image and mobile image, message image)
+* Users can register an account by entering
+* Username, Email (optional), Password
+* Users who have already registered can click on  
+* Log In link, redirects to Log In page
+
+|        |        |
+|------|-------|
+| Register an Account | ![IMG_1284](https://github.com/Indrakens/heaven1/assets/127971416/c2fc4d04-8878-46f3-a08a-4cf72c925980)|
 ### Log In
-* Users can login by entering Username and Password
-* Users who haven't already registered can click on Register link, redirects to Register page (add image and mobile image, message image)
+* Users who haven't already registered can click on Register link 
+* Register link, redirects to Register page 
+
+|      |       |
+|------|------|
+| Log In | ![IMG_1285](https://github.com/Indrakens/heaven1/assets/127971416/f862698d-58be-4973-952a-9db18dcb7dd7)|
 ### Log Out
-* Users can Log Out by clicking on Logout link top of the page
-* Users can click on Log Out button, to log-out from site, or Exit link whitch redirects to home page(add image, mobile image)
+* Users can click on Log Out button, to log-out from site, or Exit link whitch redirects to home page
+
+|      |      |
+|------|------|
+| Log Out | ![IMG_1286](https://github.com/Indrakens/heaven1/assets/127971416/c20f8bdc-4e27-475b-8f96-0cb7f1d1dc40)|
 ### Cocktail Recipe Detail
 * Recipe detail page have access only logged in users
-* Users can clikc on Get The cocktail link to view recipe details, redirects to cocktail recipe detail
-* Users can click on heart icon to like recipe
+* Users can clikc on Get The cocktail link to view recipe details, redirects to cocktail recipe detail page
+* Users can click on heart icon to like recipe, view recipe details, see number of likes and number of comments
+
+|         |        |
+|------|------|
+| Cocktail recipe detail page | ![IMG_1287](https://github.com/Indrakens/heaven1/assets/127971416/1ebbb788-d845-4cf4-8137-63e2d7245d89)|
 ### Comment Recipe
 * Comment recipe have acces only logged in users
-* Users can write comments in comment form on cocktail recipe detail page
-* After submission a success message displays
-* The comment does not appear until the admin approves the comment for publication (add image, mobile image, message image)
+* Users can write comments in cocktail recipe detail page 
+* After submission a success message displays 
+* The comment does not appear until the admin approves the comment for publication
+
+|       |        |
+|------|------|
+| Approved comments appears left side | ![IMG_1288](https://github.com/Indrakens/heaven1/assets/127971416/dd8fa8c9-b890-41aa-b25c-7e55d6e6a4b3)|
 ### Add Cocktail Form
 * Users can click on Add Cocktail in top of the page
 * Provides a form to submit fields to complete to add cocktail recipes to the public and for CRUD functionality
@@ -156,10 +183,8 @@ The goal of the project is to create a cocktail recipe website. To provide users
 ### 403 Error
 * Users not able to update other user cocktail recipes, redirects to 403 page
 * Users not able to delete other user cocktail recipes, redirects to 403 page (add images)
-### 404 Error
-* Page not found (add images)
-### 500 Error
-* Internal server error (add images)
+### Footer
+* Footer with links to direct user to Facebook, Instagram, Twiter (add image and mobile image)
 # TESTING
 Full testing can be seen [TESTING.md](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md) file.
 #
