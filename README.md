@@ -120,7 +120,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * Cocktail Recipes - log-in user can create, edit, delete it's own recipe
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
 ## FUTURE TO IMPLEMENT
-* Improvement could be made to create an option so that the user can delete their account. At the moment only Admin in the admin panel can delete the user.
+* Improvement could be made to create a page where users could delete their accounts. At the moment only Admin in the admin panel can delete the users.
 # FEATURES
 ## WEB
 ### Home Page 
@@ -369,6 +369,23 @@ Creating a clone enables you to make a copy of the repository at that point in t
 ### Code Institute
 * The Code Institute reference material was used as a general reference for things that I had previously done during the course
 * Course content for portfolio project 4 helped able to complete this project 
+# BUGS
+* I wasn' able to check python testing in terminal, didn't show any testing.py files. I had to add code in settings.py.
+
+|        |        |
+|--------|--------|
+| import sys | ![IMG_1348](https://github.com/Indrakens/heaven1/assets/127971416/7313ab3e-62b1-4cf8-a156-0383ac61b806)|
+| add if statement to DATABASES | ![IMG_1351](https://github.com/Indrakens/heaven1/assets/127971416/6034d4be-6d57-4a31-9087-17f29ae54f09)|
+* I was making changes in recipe models for serving and time. I changed CharField to IntegerField for serving and time. After those changes I wasn't able to migrate and website wasn't working. To fix it I reset Database and create new superuser. Steps to reset Database:
+
+|           |            |
+|-------|-------|
+| 1. | Delete the db.sqlite3 file. If this file contains important data, you might want to settle a backup for those|
+| 2. | In ElephantSQL, in the Details dashboard, click on the ‘Reset’ button|
+| 3. |  Delete all the migrations files inside the migration folder of all the Django applications (EXCEPT for **init.py** file, this is important)|
+| 4. |  Make migrations again|
+| 5. | Create a new superuser|
+|
 # ACKNOWLEDGMENT
 * Graeme Taylor - my mentor who provided me with great feedback and guidance at the inception of this projec
 * Alan Bushell - our teacher, always a great mentor during stand-up. And who helped insure me to get true this project
