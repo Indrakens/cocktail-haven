@@ -19,6 +19,9 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [USER STORIES](https://github.com/Indrakens/cocktail-heaven#user-stories)
 * [SCOPE](https://github.com/Indrakens/cocktail-heaven#scope)
 * [FEATURES](https://github.com/Indrakens/cocktail-heaven#features)
+  * [WEB](https://github.com/Indrakens/cocktail-heaven#web)
+  * [PHONE](https://github.com/Indrakens/cocktail-heaven#phone)
+* [ALERT AND SUCCESS MESSAGES ](https://github.com/Indrakens/cocktail-heaven#alert-and-success-messages)
 * [TESTING](https://github.com/Indrakens/cocktail-heaven#testing)
 * [TEHNOLOGY USED](https://github.com/Indrakens/cocktail-heaven#tehnology-used)
 * [DEPLOYMENT](https://github.com/Indrakens/cocktail-heaven#deployment)
@@ -264,6 +267,8 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |------|-------|
 | Forbidden Access | ![IMG_1319](https://github.com/Indrakens/heaven1/assets/127971416/f692b9e3-5a67-4c4b-a06c-7a7ff7bf5a77)|
 ### Footer
+|      |     |
+|-----|-----|
 | Footer | ![f](https://github.com/Indrakens/heaven1/assets/127971416/4cd4ad4d-790f-4444-a622-22a5a372a474)|
 # ALERT AND SUCCESS MESSAGES 
 |            |         |
