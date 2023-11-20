@@ -204,7 +204,12 @@ The goal of the project is to create a cocktail recipe website. To provide users
 | Forbidden Access | ![IMG_1294](https://github.com/Indrakens/heaven1/assets/127971416/496203dc-506b-439a-b3a4-515eaba0b959)|
 
 ### Footer
-* Footer with links to direct user to Facebook, Instagram, Twiter (add image and mobile image)
+* Footer is displayed in the bottom of the page
+* Includes social media links: Facebook, Instagram, Twiter 
+
+|      |       |
+|------|------|
+| Footer | ![footer](https://github.com/Indrakens/heaven1/assets/127971416/b31ce067-fc17-43aa-9211-fe9f83d93086)|
 # TESTING
 Full testing can be seen [TESTING.md](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md) file.
 #
