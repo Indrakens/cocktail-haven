@@ -116,6 +116,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * Cocktail Recipes - log-in user can create, edit, delete it's own recipe
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
 # FEATURES
+## WEB
 ### Home Page 
 |           |              |
 |------|-------|
@@ -171,7 +172,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |       |        |
 |------|------|
 | Approved comments appears left side | ![IMG_1288](https://github.com/Indrakens/heaven1/assets/127971416/dd8fa8c9-b890-41aa-b25c-7e55d6e6a4b3)|
-### Add Cocktail Form
+### Add Cocktail 
 * Users can click on Add Cocktail in top of the page
 * Provides a form to submit fields to complete to add cocktail recipes to the public and for CRUD functionality
 * The placeholder image is available if the user has not supplied a cocktail image
@@ -210,6 +211,73 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |      |       |
 |------|------|
 | Footer | ![footer](https://github.com/Indrakens/heaven1/assets/127971416/b31ce067-fc17-43aa-9211-fe9f83d93086)|
+## PHONE
+### HOME
+|       |        |
+|------|--------|
+| Welcoming Header | ![IMG_1300](https://github.com/Indrakens/heaven1/assets/127971416/3686c975-5b19-41fb-a23d-c479394d41ea)|
+| Displays cocktail images, cocktail description, created-on and number of likes. Users can Login or Register by clickin on links to get recipe | ![IMG_1305](https://github.com/Indrakens/heaven1/assets/127971416/6c745aad-3fe8-4fee-a57d-22b6a16df04c)|
+| LogIn User - Welcoming Header | ![IMG_1301](https://github.com/Indrakens/heaven1/assets/127971416/4419af72-9040-49cd-afb1-068ebb470a2c)|
+| LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, edit and delete button, created-on, number of likes | ![IMG_1306](https://github.com/Indrakens/heaven1/assets/127971416/92030322-5815-4956-b370-f48b0320d5c1)| 
+### Navigation Bar 
+|      |       |
+|------|-------|
+| Nav | ![IMG_1302](https://github.com/Indrakens/heaven1/assets/127971416/99f66968-02a0-4aa0-b638-be1c79c3fd3d)|
+| Nav Menu | ![IMG_1303](https://github.com/Indrakens/heaven1/assets/127971416/4d83fb42-6327-4753-80b6-4297d82587a0)|
+| Nav Menu - LogIn User | ![IMG_1304](https://github.com/Indrakens/heaven1/assets/127971416/139c3e13-4a5c-4919-a4a3-ed0abc427661)|
+### Register
+|     |     |
+|---|---|
+| Register an Account | ![IMG_1307](https://github.com/Indrakens/heaven1/assets/127971416/f3c3346a-374c-4d36-9843-022194f3258a)|
+### LogIn
+|      |       |
+|-----|------|
+| Log In | ![IMG_1308](https://github.com/Indrakens/heaven1/assets/127971416/4ff983d3-334b-4583-a2f0-96199ad2fd67)|
+### LogOut
+|      |       |
+|-----|-----|
+| Log Out | ![IMG_1309](https://github.com/Indrakens/heaven1/assets/127971416/a2d182a9-1d6c-4f53-88a9-fca210ada7f6)|
+### Cocktail Recipe Detail
+|     |       |
+|------|------|
+| Recipe Detail Page | ![IMG_1310](https://github.com/Indrakens/heaven1/assets/127971416/cbc69d4d-83a0-4cae-bebf-7d3790ff38ec)|
+### Comment Recipe
+|      |      |
+|------|-------|
+| Comments and comment body displays under cocktail recipe details in recipe detail page | ![IMG_1311](https://github.com/Indrakens/heaven1/assets/127971416/b35bb7c6-3eea-4e1c-b787-6cc9aca4fe46)|
+### Add Cocktail 
+|      |       |
+|------|-------|
+| Add Cocktail | ![IMG_1312](https://github.com/Indrakens/heaven1/assets/127971416/2b9a3fa3-e3ba-4ba4-b463-f2f646e08855)|
+| Continues under Ingredients | ![IMG_1313](https://github.com/Indrakens/heaven1/assets/127971416/ab5ed744-fbc2-4591-958d-baad0203bce4)|
+### Update Cocktail Recipe
+|      |       |
+|------|------|
+| Update Cocktail | ![IMG_1315](https://github.com/Indrakens/heaven1/assets/127971416/b86d5930-5754-4e8b-9741-af918168516a)|
+| Continues under Ingredients | ![IMG_1316](https://github.com/Indrakens/heaven1/assets/127971416/f0c52025-0061-4684-b206-e33495b67901)|
+### Delete Cocktail Recipe
+|       |     |
+|-------|-------|
+| Delete Cocktail | ![IMG_1317](https://github.com/Indrakens/heaven1/assets/127971416/31c5d7e9-0f91-4a9a-8783-f2d9a5e8e990)|
+### Forbidden Access
+|    |      |
+|------|-------|
+| Forbidden Access | ![IMG_1319](https://github.com/Indrakens/heaven1/assets/127971416/f692b9e3-5a67-4c4b-a06c-7a7ff7bf5a77)|
+### Footer
+| Footer | ![f](https://github.com/Indrakens/heaven1/assets/127971416/4cd4ad4d-790f-4444-a622-22a5a372a474)|
+# ALERT AND SUCCESS MESSAGES 
+|            |         |
+|-------|-------|
+| Registered - displays top of the page | ![IMG_1322](https://github.com/Indrakens/heaven1/assets/127971416/413dd739-ba46-495a-b2e8-82d937621d74)|
+| Register - paswor too similar to the user name and too short | ![IMG_1328](https://github.com/Indrakens/heaven1/assets/127971416/e717f3c2-95dd-4a00-8ddb-1f5deac6f3a0)|
+|Register - must type same pasword again | ![IMG_1329](https://github.com/Indrakens/heaven1/assets/127971416/c14c4cda-3754-466a-a917-3dea3ed2e70b)| 
+| Register - already existing username | ![IMG_1330](https://github.com/Indrakens/heaven1/assets/127971416/c79114d8-9839-4e42-b392-8750fea60614)|
+| LogIn - displays top of the page | ![IMG_1327](https://github.com/Indrakens/heaven1/assets/127971416/6c224ec5-21af-412c-baa2-952d80c9d809)|
+| Log In - username or pasword are not correct | ![IMG_1318](https://github.com/Indrakens/heaven1/assets/127971416/e9c80d68-95af-4d30-8012-4d5c422b99e0)|
+| Log Out - displays top of the page | ![IMG_1324](https://github.com/Indrakens/heaven1/assets/127971416/4958ac9e-f903-45d6-8c42-b4831d808180)|
+| Add Cocktail - displays top of the page |![IMG_1331](https://github.com/Indrakens/heaven1/assets/127971416/4fed4a31-6646-4cd0-b2c1-538cff8f935b)|
+| Update Cocktail - displays top of the page | ![IMG_1332](https://github.com/Indrakens/heaven1/assets/127971416/799e4f3e-00a0-41ef-9709-40464395647b)|
+|  Comment approval message - displays bottom of tha page | ![IMG_1333](https://github.com/Indrakens/heaven1/assets/127971416/1e102359-aadd-4959-b691-f0f0c02e0fab)|
 # TESTING
 Full testing can be seen [TESTING.md](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md) file.
 #

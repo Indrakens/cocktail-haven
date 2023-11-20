@@ -160,9 +160,7 @@ class RecipeUpdate(
 
 
 class RecipeDelete(
-    LoginRequiredMixin, UserPassesTestMixin,
-    SuccessMessageMixin, generic.DeleteView
-):
+    LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
     """
     Logged-in user can delete it's own cocktail recipe
     Redirects to delete_cocktail page
@@ -173,7 +171,6 @@ class RecipeDelete(
     model = Recipe
     template_name = "delete_cocktail.html"
     success_url = reverse_lazy("home")
-    success_message = "Cocktail-recipe have been deleted!"
 
     def test_func(self):
         return self.request.user == self.get_object().user
