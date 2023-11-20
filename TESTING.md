@@ -16,7 +16,17 @@
 |-------------|:-----:|
 | alias 'default'                | ![IMG_1242](https://github.com/Indrakens/UCD-resume/assets/127971416/0e579fd9-f08a-49bb-8590-61f2b7e40184)|
 # CSS Validation
+|       |        |
+|-------|--------|
+| CSS | ![IMG_1334](https://github.com/Indrakens/heaven1/assets/127971416/fbcf9edb-d5a5-4f89-8bf0-eebae95a3174)|
+| Warnings | ![IMG_1337](https://github.com/Indrakens/heaven1/assets/127971416/3c1dfd39-31d1-4273-aaac-8895937ea658)|
 # HTML Validation
+Due to the Django codes in templates, W3C Markup Validator shows errors, for that reason only included base.html validator result
+|        |        |
+|------|--------|
+| Warning | ![IMG_1342](https://github.com/Indrakens/heaven1/assets/127971416/d120595a-4563-4476-9436-8162f3af7308)|
+| Errors | ![IMG_1343](https://github.com/Indrakens/heaven1/assets/127971416/0f9bfa77-0cd1-46b1-ac3d-5b4edd63bf5b)|
+| Errors | ![IMG_1344](https://github.com/Indrakens/heaven1/assets/127971416/4965f7ee-2cc1-441b-98fe-832e8d9076c1)|
 # Manual Testing
 ### Account Registration
 |     TEST                    |  RESULTS  |

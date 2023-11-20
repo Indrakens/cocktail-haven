@@ -18,7 +18,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
 * [USER STORIES](https://github.com/Indrakens/cocktail-heaven#user-stories)
 * [SCOPE](https://github.com/Indrakens/cocktail-heaven#scope)
-  * [FUTURE TO IMPLEMENT]()
+  * [FUTURE TO IMPLEMENT](https://github.com/Indrakens/cocktail-heaven/tree/main#future-to-implement)
 * [FEATURES](https://github.com/Indrakens/cocktail-heaven#features)
   * [WEB](https://github.com/Indrakens/cocktail-heaven#web)
   * [PHONE](https://github.com/Indrakens/cocktail-heaven#phone)
