@@ -18,6 +18,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
 * [USER STORIES](https://github.com/Indrakens/cocktail-heaven#user-stories)
 * [SCOPE](https://github.com/Indrakens/cocktail-heaven#scope)
+  * [FUTURE TO IMPLEMENT]()
 * [FEATURES](https://github.com/Indrakens/cocktail-heaven#features)
   * [WEB](https://github.com/Indrakens/cocktail-heaven#web)
   * [PHONE](https://github.com/Indrakens/cocktail-heaven#phone)
@@ -118,6 +119,8 @@ The goal of the project is to create a cocktail recipe website. To provide users
 * User - can view site content, register an account, log-in and log-out
 * Cocktail Recipes - log-in user can create, edit, delete it's own recipe
 * Other Cocktail Recipes - log-in user can read, like/unlike, and comment recipe
+## FUTURE TO IMPLEMENT
+* Improvement could be made to create an option so that the user can delete their account. At the moment only Admin in the admin panel can delete the user.
 # FEATURES
 ## WEB
 ### Home Page 
@@ -365,7 +368,7 @@ Creating a clone enables you to make a copy of the repository at that point in t
 * Used for reference throughout for css examples
 ### Code Institute
 * The Code Institute reference material was used as a general reference for things that I had previously done during the course
-* Course content for portfolio project 4 helped able to complete this project
+* Course content for portfolio project 4 helped able to complete this project 
 # ACKNOWLEDGMENT
 * Graeme Taylor - my mentor who provided me with great feedback and guidance at the inception of this projec
 * Alan Bushell - our teacher, always a great mentor during stand-up. And who helped insure me to get true this project
