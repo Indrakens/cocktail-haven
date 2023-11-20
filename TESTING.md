@@ -18,10 +18,10 @@
 # CSS Validation
 |       |        |
 |-------|--------|
-| CSS | ![IMG_1334](https://github.com/Indrakens/heaven1/assets/127971416/fbcf9edb-d5a5-4f89-8bf0-eebae95a3174)|
+| [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) | ![IMG_1334](https://github.com/Indrakens/heaven1/assets/127971416/fbcf9edb-d5a5-4f89-8bf0-eebae95a3174)|
 | Warnings | ![IMG_1337](https://github.com/Indrakens/heaven1/assets/127971416/3c1dfd39-31d1-4273-aaac-8895937ea658)|
 # HTML Validation
-Due to the Django codes in templates, W3C Markup Validator shows errors, for that reason only included base.html validator result
+Due to the Django codes in templates, [W3C Markup Validation Service](https://validator.w3.org/) shows errors, for that reason only included base.html validator result
 |        |        |
 |------|--------|
 | Warning | ![IMG_1342](https://github.com/Indrakens/heaven1/assets/127971416/d120595a-4563-4476-9436-8162f3af7308)|
@@ -30,7 +30,7 @@ Due to the Django codes in templates, W3C Markup Validator shows errors, for tha
 # JavaScript
 |       |       |
 |-----|------|
-| JSHint - javascript code is only in base.html page setting timeaut for allert messages | ![IMG_1346](https://github.com/Indrakens/heaven1/assets/127971416/074186b2-b322-448c-9a55-495e336f7bc9)|
+| [JSHint](https://jshint.com/) - javascript code is only in base.html page setting timeaut for allert messages | ![IMG_1346](https://github.com/Indrakens/heaven1/assets/127971416/074186b2-b322-448c-9a55-495e336f7bc9)|
 # Manual Testing
 ### Account Registration
 |     TEST                    |  RESULTS  |
