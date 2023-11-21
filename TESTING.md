@@ -1,12 +1,12 @@
 # TABLE OF CONTENT
-* [CI PYTHON LINTER]()
-* [UNITTEST]()
-* [CSS VALIDATION]()
-* [HTML VALIDATION]()
-* [JAVASCRIPT]()
-* [MANUAL TESTING]()
-* [GOOGLE LIGHTHOUSE TESTING]()
-* [CROSS-BROWSER COMPATIBILITY]()
+* [CI PYTHON LINTER](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#ci-python-linter-pep8ci)
+* [UNITTEST](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#unittest)
+* [CSS VALIDATION](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#css-validation)
+* [HTML VALIDATION](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#html-validation)
+* [JAVASCRIPT](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#javascript)
+* [MANUAL TESTING](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#manual-testing)
+* [GOOGLE LIGHTHOUSE TESTING](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#google-lighthouse-testing)
+* [CROSS-BROWSER COMPATIBILITY](https://github.com/Indrakens/cocktail-heaven/blob/main/TESTING.md#cross-browser-compatibility)
 #
 # CI PYTHON LINTER [pep8ci](https://pep8ci.herokuapp.com/)
 |     FILE               |  RESULTS  |
