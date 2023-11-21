@@ -1,7 +1,7 @@
 # COCKTAIL | HEAVEN
 Website designed to provide users learn and try cocktail recipes. Users can register to the site and once logged in they have access to all the site features. Registered users can create their own cocktail recipes and share their cocktail recipes with other users. Also can update or delete their own cocktail recipe. Users can like/ unlike cocktail recipes and also be involved in conversations related to chosen cocktail recipes by commenting on them. 
 #
-![IMG_1382](https://github.com/Indrakens/bootstrap-whiskydrop-landing-page/assets/127971416/1f73ad5b-afe5-463c-89a6-6f27af26001a)
+![IMG_1382 (1)](https://github.com/Indrakens/bootstrap-whiskydrop-landing-page/assets/127971416/27e98a29-9c9b-4ad8-8a29-795f78fa245a)
 #
 The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
 #
