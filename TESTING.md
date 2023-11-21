@@ -1,4 +1,14 @@
-# Python Validation pep8ci
+# TABLE OF CONTENT
+* [CI PYTHON LINTER]()
+* [UNITTEST]()
+* [CSS VALIDATION]()
+* [HTML VALIDATION]()
+* [JAVASCRIPT]()
+* [MANUAL TESTING]()
+* [GOOGLE LIGHTHOUSE TESTING]()
+* [CROSS-BROWSER COMPATIBILITY]()
+#
+# CI PYTHON LINTER [pep8ci](https://pep8ci.herokuapp.com/)
 |     FILE               |  RESULTS  |
 |-------------|:-----:|
 | cocktails2023/ urls.py | ![IMG_1230](https://github.com/Indrakens/UCD-resume/assets/127971416/736a64c8-b575-40ad-9dc9-73d83b6d5776)|
@@ -24,23 +34,23 @@
 |       |      |
 |------|-------|
 | Coverage HTML | ![IMG_1355](https://github.com/Indrakens/heaven1/assets/127971416/630b7c11-aaa1-4d48-93d7-8539477c3083)|
-# CSS Validation
+# CSS VALIDATION
 |       |        |
 |-------|--------|
 | [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) | ![IMG_1334](https://github.com/Indrakens/heaven1/assets/127971416/fbcf9edb-d5a5-4f89-8bf0-eebae95a3174)|
 | Warnings | ![IMG_1337](https://github.com/Indrakens/heaven1/assets/127971416/3c1dfd39-31d1-4273-aaac-8895937ea658)|
-# HTML Validation
+# HTML VALIDATION
 Due to the Django codes in templates, [W3C Markup Validation Service](https://validator.w3.org/) shows errors, for that reason only included base.html validator result
 |        |        |
 |------|--------|
 | Warning | ![IMG_1342](https://github.com/Indrakens/heaven1/assets/127971416/d120595a-4563-4476-9436-8162f3af7308)|
 | Errors | ![IMG_1343](https://github.com/Indrakens/heaven1/assets/127971416/0f9bfa77-0cd1-46b1-ac3d-5b4edd63bf5b)|
 | Errors | ![IMG_1344](https://github.com/Indrakens/heaven1/assets/127971416/4965f7ee-2cc1-441b-98fe-832e8d9076c1)|
-# JavaScript
+# JAVASCRIPT
 |       |       |
 |-----|------|
-| [JSHint](https://jshint.com/) - javascript code is only in base.html page setting timeaut for allert messages | ![IMG_1346](https://github.com/Indrakens/heaven1/assets/127971416/074186b2-b322-448c-9a55-495e336f7bc9)|
-# Manual Testing
+| [JSHint](https://jshint.com/) - javascript code is only in base.html page, setting timeaut for allert messages | ![IMG_1346](https://github.com/Indrakens/heaven1/assets/127971416/074186b2-b322-448c-9a55-495e336f7bc9)|
+# MANUAL TESTING
 ### Account Registration
 |     TEST                    |  RESULTS  |
 |-------------|:-----:|
@@ -81,4 +91,17 @@ Due to the Django codes in templates, [W3C Markup Validation Service](https://va
 | Admin can approve or delete user comments in admin panel       |    PASS   |
 | Admin can view user details in admin panel                     |    PASS   |
 | Admin can delete user with it's created recipes in admin panel |    PASS   |
-# Google Lighthouse Testing
+### Error Handler
+| TEST                                                                    | RESULTS |
+|--------|---------|
+| Forbidden Access - when user tries update or delete other user cocktail |  PASS  |
+| 404 - page not found                                                    |  PASS  |
+| 500 - internal server error                                             |  PASS  |
+#
+# GOOGLE LIGHTHOUSE TESTING
+
+# CROSS-BROWSER COMPATIBILITY
+|  TEST      |  RESULTS       |
+|--------|---------|
+| Google Chrome  | PASS |
+| Microsoft Edge | PASS |
