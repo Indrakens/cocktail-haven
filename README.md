@@ -209,8 +209,12 @@ The goal of the project is to create a cocktail recipe website. To provide users
 
 |     |      |
 |------|------|
-| Forbidden Access | ![IMG_1294](https://github.com/Indrakens/heaven1/assets/127971416/496203dc-506b-439a-b3a4-515eaba0b959)|
-
+| Forbidden Access | ![IMG_1368](https://github.com/Indrakens/heaven1/assets/127971416/0443a695-5fcd-416b-8aa3-9e4fe847dbbd)|
+### Error Handlers
+|       |       |
+|------|-------|
+| 404 | ![IMG_1365](https://github.com/Indrakens/heaven1/assets/127971416/91f2f123-0b03-4451-98f3-4310ecdbbd9e)|
+| 500 | ![IMG_1363](https://github.com/Indrakens/heaven1/assets/127971416/6570abca-ea4e-4e90-8a7a-0361151d2b47)|
 ### Footer
 * Footer is displayed in the bottom of the page
 * Includes social media links: Facebook, Instagram, Twiter 
@@ -269,7 +273,12 @@ The goal of the project is to create a cocktail recipe website. To provide users
 ### Forbidden Access
 |    |      |
 |------|-------|
-| Forbidden Access | ![IMG_1319](https://github.com/Indrakens/heaven1/assets/127971416/f692b9e3-5a67-4c4b-a06c-7a7ff7bf5a77)|
+| Forbidden Access | ![IMG_1369](https://github.com/Indrakens/heaven1/assets/127971416/2bdd0f0c-ccae-4a91-96ba-3aa2178a0f9f)|
+### Error Handlers
+|       |        |
+|------|------|
+| 404 | ![IMG_1366](https://github.com/Indrakens/heaven1/assets/127971416/e26eaf6c-0841-42b9-8c71-35e11ea81fb4)|
+| 500 | ![IMG_1364](https://github.com/Indrakens/heaven1/assets/127971416/10f66ac8-5f69-41fd-afc6-dce491c5e793)|
 ### Footer
 |      |     |
 |-----|-----|
