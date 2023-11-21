@@ -34,7 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','local']
+ALLOWED_HOSTS = ['cocktailheaven-c43cabf55fb3.herokuapp.com','localhost']
 
 
 # Application definition
