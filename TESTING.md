@@ -103,5 +103,8 @@ Due to the Django codes in templates, [W3C Markup Validation Service](https://va
 # CROSS-BROWSER COMPATIBILITY
 |  TEST      |  RESULTS       |
 |--------|---------|
-| Google Chrome  | PASS |
-| Microsoft Edge | PASS |
+|![chromelogo 0](https://github.com/Indrakens/heaven1/assets/127971416/49840713-b9f2-4080-9848-745fc2c4eb30) - Google Chrome| PASS |
+|![me (1)](https://github.com/Indrakens/heaven1/assets/127971416/d4f6e855-6926-4066-9bd9-de958c29c75c) - Microsoft Edge  | PASS |
+|![firefox (1)](https://github.com/Indrakens/heaven1/assets/127971416/7fdf66dd-6078-477b-8e17-d865cd58f52b)  - Firefox        | PASS |
+|![saf](https://github.com/Indrakens/heaven1/assets/127971416/618146b6-b020-4050-a97b-9a966b26728f)  - Safari| PASS |
+#
