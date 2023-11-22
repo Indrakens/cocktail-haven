@@ -8,5 +8,5 @@ def handler404(request, exception):
 
 def handler500(request):
     """ Internal Server Error """
-    return render(request, "500.html")
+    return render(request, "500.html")  
        

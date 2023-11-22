@@ -58,7 +58,7 @@
                                         class="link" href="{% url 'account_signup' %}">Register</a> an account!</section></p>
                                     {% endif %}
                             
-                                    {% if user.is_authenticated %}
+                                    {% if user.is_authenticated and recipe.user == user %}
                                     <div class="choices col-md-12">
                                         <a href="{% url 'edit_cocktail' recipe.slug %}" class="btn btn-sm btn-success  btn-signup">Update</a>
                                         <a href="{% url 'delete_cocktail' recipe.slug %}" class="btn btn-sm btn-success btn-signup">Delete</a>
