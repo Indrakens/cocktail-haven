@@ -130,7 +130,13 @@ The goal of the project is to create a cocktail recipe website. To provide users
 | Welcoming Header | ![IMG_1260](https://github.com/Indrakens/heaven1/assets/127971416/4cf59f1e-c5bb-4392-9385-a47129a483c5)|
 | Displays cocktail images, cocktail description, created-on and number of likes. Users can Login or Register by clickin on links to get recipe | ![IMG_1264](https://github.com/Indrakens/heaven1/assets/127971416/4539a57b-630d-4813-af3d-0d3e749ea3ab)|
 | LogIn User - Welcoming Header | ![IMG_1265](https://github.com/Indrakens/heaven1/assets/127971416/a9da2687-c69f-4096-819b-32ba3ef0a6cb)|
-| LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, edit and delete button, created-on, number of likes | ![IMG_1267](https://github.com/Indrakens/heaven1/assets/127971416/2018ebca-8cdd-41ce-a96d-b0cab77c8b69)|
+| LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, created-on, number of likes | ![IMG_1397](https://github.com/Indrakens/heaven1/assets/127971416/2bfe83f6-f949-49ad-85ac-bd8879391176)|
+### Update / Delete Buttons
+* Update and delete buttons ar visible only for your own added cocktail recipe 
+
+|        |        |
+|-------|-------|
+| Appears below cocktail image, deskription and link - get the (cocktail name)| ![IMG_1413](https://github.com/Indrakens/heaven1/assets/127971416/ffcc2254-65ce-45d0-ba5c-755c16c3b4f2)|
 ### Navigation Bar
 * The navigation bar appears top of the page
 
@@ -186,14 +192,14 @@ The goal of the project is to create a cocktail recipe website. To provide users
 
 |     |       |
 |-----|------|
-| Add Cocktail | ![IMG_1290](https://github.com/Indrakens/heaven1/assets/127971416/fc08f304-ee3c-4dfb-a53a-92c49c1c789b)|
+| Add Cocktail | ![IMG_1401](https://github.com/Indrakens/heaven1/assets/127971416/06029f9b-eedc-4a99-8e82-7ac23db1a5c9)|
 ### Update Cocktail Recipe
 * Update cocktail recipe is available for logged in users
-* Clicking on Edit button belove cocktail image, user is able to update cocktail recipe
+* Clicking on Update button user is able to update cocktail recipe
 
 |      |      |
 |-----|------|
-| Update Cocktail | ![IMG_1291](https://github.com/Indrakens/heaven1/assets/127971416/70d0c5c0-0552-4c30-bb50-fa6dfd1a0736)|
+| Update Cocktail | ![IMG_1402](https://github.com/Indrakens/heaven1/assets/127971416/4019952e-a795-4659-bc3d-ed6e5ab2f347)|
 ### Delete Cocktail Recipe
 * Delete cocktail recipe is available to logged in users
 * Clicking on Delete button belove cocktail image, user is redirected to Delete Cocktail page
@@ -204,7 +210,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |-----|-----|
 | Delete Cocktail | ![IMG_1292](https://github.com/Indrakens/heaven1/assets/127971416/189ab783-41ea-4123-885d-5b934202a495)|
 ### Forbidden Access
-* Users not able to update and delete other user cocktail recipes, redirects to forbidden acces page
+* The 403 Forbidden error indicates that the server understands the request but can't provide additional access. This means that the web page you're trying to open in your browser is a resource that you're not allowed to access.
 * To exit page click on Home Page link, redirects to home page
 
 |     |      |
@@ -229,7 +235,7 @@ The goal of the project is to create a cocktail recipe website. To provide users
 | Welcoming Header | ![IMG_1300](https://github.com/Indrakens/heaven1/assets/127971416/3686c975-5b19-41fb-a23d-c479394d41ea)|
 | Displays cocktail images, cocktail description, created-on and number of likes. Users can Login or Register by clickin on links to get recipe | ![IMG_1305](https://github.com/Indrakens/heaven1/assets/127971416/6c745aad-3fe8-4fee-a57d-22b6a16df04c)|
 | LogIn User - Welcoming Header | ![IMG_1301](https://github.com/Indrakens/heaven1/assets/127971416/4419af72-9040-49cd-afb1-068ebb470a2c)|
-| LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, edit and delete button, created-on, number of likes | ![IMG_1306](https://github.com/Indrakens/heaven1/assets/127971416/92030322-5815-4956-b370-f48b0320d5c1)| 
+| LogIn User - displays cocktail image, cocktail description, link to get cocktail recipe, created-on, number of likes | ![IMG_1414](https://github.com/Indrakens/heaven1/assets/127971416/5e42f641-8a6d-4c05-b709-9b8492cf8b5b)| 
 ### Navigation Bar 
 |      |       |
 |------|-------|
@@ -259,12 +265,12 @@ The goal of the project is to create a cocktail recipe website. To provide users
 ### Add Cocktail 
 |      |       |
 |------|-------|
-| Add Cocktail | ![IMG_1312](https://github.com/Indrakens/heaven1/assets/127971416/2b9a3fa3-e3ba-4ba4-b463-f2f646e08855)|
+| Add Cocktail | ![IMG_1404](https://github.com/Indrakens/heaven1/assets/127971416/88314cde-f2f0-48e0-83b7-005f8d55d7b4)|
 | Continues under Ingredients | ![IMG_1313](https://github.com/Indrakens/heaven1/assets/127971416/ab5ed744-fbc2-4591-958d-baad0203bce4)|
 ### Update Cocktail Recipe
 |      |       |
 |------|------|
-| Update Cocktail | ![IMG_1315](https://github.com/Indrakens/heaven1/assets/127971416/b86d5930-5754-4e8b-9741-af918168516a)|
+| Update Cocktail | ![IMG_1407](https://github.com/Indrakens/heaven1/assets/127971416/41ecc8da-5d14-46a3-adf1-b99223e9f1dc)|
 | Continues under Ingredients | ![IMG_1316](https://github.com/Indrakens/heaven1/assets/127971416/f0c52025-0061-4684-b206-e33495b67901)|
 ### Delete Cocktail Recipe
 |       |     |
