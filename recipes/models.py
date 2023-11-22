@@ -10,14 +10,11 @@ class Recipe(models.Model):
     Recipe Model
     """
 
-    name = models.CharField(max_length=200, unique=True)
+    name = models.CharField(max_length=200, unique=False)
     slug = models.SlugField(max_length=200, unique=True)
     user = models.ForeignKey(
          User, on_delete=models.CASCADE, related_name="cocktail")
     featured_image = CloudinaryField("image", default="placeholder")
-    featured_image_alt = models.CharField(
-        max_length=100, null=False, blank=False, default="green-lime-cocktail"
-    )
     serving = models.IntegerField()
     time = models.IntegerField()
     description = models.CharField(max_length=100, unique=True)
@@ -44,6 +41,11 @@ class Recipe(models.Model):
         Displays total number of likes
         """
         return self.likes.count()
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = self.name.replace('', '-')
+        super().save(*args, **kwargs)  
 
 
 class Comment(models.Model):

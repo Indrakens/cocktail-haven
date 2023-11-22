@@ -109,9 +109,7 @@ class RecipeCreate(
     model = Recipe
     fields = [
         "name",
-        "slug",
         "featured_image",
-        "featured_image_alt",
         "serving",
         "time",
         "description",
@@ -142,9 +140,7 @@ class RecipeUpdate(
     model = Recipe
     fields = [
         "name",
-        "slug",
         "featured_image",
-        "featured_image_alt",
         "serving",
         "time",
         "description",
