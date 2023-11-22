@@ -12,7 +12,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
   * [Fonts](https://github.com/Indrakens/cocktail-heaven#fonts)
   * [Images](https://github.com/Indrakens/cocktail-heaven#images)
   * [Icons](https://github.com/Indrakens/cocktail-heaven#icons)
-* [DATABASE MODEL]()  
+* [DATABASE MODEL](https://github.com/Indrakens/cocktail-heaven#database-model)  
 * [Wireframe](https://github.com/Indrakens/cocktail-heaven#wireframe)
 * [AGILE](https://github.com/Indrakens/cocktail-heaven#agile)  
 * [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
