@@ -57,7 +57,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 |                   |                |
 |----------|---------|
 | Unregistered User Home Page| ![New Wireframe 1](https://github.com/Indrakens/heaven1/assets/127971416/cfa036c6-79e8-4a12-81a7-86ce93f4265e)|
-| LogIn User Home Page       | ![New Wireframe 1 (2)](https://github.com/Indrakens/heaven1/assets/127971416/b3a0370f-f091-451b-8980-482529e8804b)|
+| LogIn User Home Page, Users whom added cocktail recipe are able to see Update and Delete buttons belove cocktail image| ![login (1)](https://github.com/Indrakens/heaven1/assets/127971416/5acb2e13-5d02-4633-b2c7-cdb3a448c5d4)|
 ## Register / LogIn
 |              |              |
 |---------|---------|
@@ -70,11 +70,11 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 ## Add Cocktail
 |         |         |
 |------|--------|
-| Add Cocktail  | ![add-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/ab5fc702-bdfe-479e-b5c3-caecffd159d3)|
+| Add Cocktail  | ![add](https://github.com/Indrakens/heaven1/assets/127971416/337b3253-ad10-46c0-b2ed-304abb88d26b)|
 ## Update / Delete
 |        |         |
 |--------|---------|
-| Update Cocktail | ![update-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/6bb4b479-fe27-426c-8ac7-678c2ba18555)|
+| Update Cocktail | ![update cocktail](https://github.com/Indrakens/heaven1/assets/127971416/944ec674-5b7a-45b6-a24e-922ff8ce4851)|
 | Delete Cocktail | ![delete](https://github.com/Indrakens/heaven1/assets/127971416/3bd0ca0b-16b6-421d-9d9a-79589695f366)| 
 # AGILE
 The Agile methodology was used to plan the project. Each user story was linked to an Epic. Issues were used to create Epics and User Stories with a custom template. Once work on the website story was complete, the user story was moved into the "Done" column.
