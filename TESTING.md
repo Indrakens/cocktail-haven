@@ -99,7 +99,9 @@ Due to the Django codes in templates, [W3C Markup Validation Service](https://va
 | 500 - internal server error                                             |  PASS  |
 #
 # GOOGLE LIGHTHOUSE TESTING
-
+|        |         |
+|---------|--------|
+| Lighthouse Testing |![IMG_1357](https://github.com/Indrakens/heaven1/assets/127971416/caa671d2-49f1-4414-a15f-6687778bd019)|
 # CROSS-BROWSER COMPATIBILITY
 |  TEST      |  RESULTS       |
 |--------|---------|
