@@ -94,7 +94,7 @@ Due to the Django codes in templates, [W3C Markup Validation Service](https://va
 ### Error Handler
 | TEST                                                                    | RESULTS |
 |--------|---------|
-| Forbidden Access - when user tries update or delete other user cocktail |  PASS  |
+| Forbidden Access - indicates that the server understands the request but can't provide additional access |  PASS  |
 | 404 - page not found                                                    |  PASS  |
 | 500 - internal server error                                             |  PASS  |
 #

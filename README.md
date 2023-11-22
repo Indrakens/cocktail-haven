@@ -7,12 +7,12 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 #
 ## TABLE OF CONTENT
 * [UX](https://github.com/Indrakens/cocktail-heaven#ux)
-* [DATABASE SCHEME](https://github.com/Indrakens/cocktail-heaven#database-scheme)
 * [UX DESIGN](https://github.com/Indrakens/cocktail-heaven#ux-design)
   * [Color Scheme](https://github.com/Indrakens/cocktail-heaven#color-scheme)
   * [Fonts](https://github.com/Indrakens/cocktail-heaven#fonts)
   * [Images](https://github.com/Indrakens/cocktail-heaven#images)
   * [Icons](https://github.com/Indrakens/cocktail-heaven#icons)
+* [DATABASE MODEL]()  
 * [Wireframe](https://github.com/Indrakens/cocktail-heaven#wireframe)
 * [AGILE](https://github.com/Indrakens/cocktail-heaven#agile)  
 * [EPICS](https://github.com/Indrakens/cocktail-heaven#epics)
@@ -33,8 +33,6 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
   * [UNFIXED BUG](https://github.com/Indrakens/cocktail-heaven#unfixed-bug)
 * [ACKNOWLEDGMENT](https://github.com/Indrakens/cocktail-heaven#acknowledgment)    
 # UX
-# DATABASE SCHEME
-(add img)
 ## UX DESIGN 
 ### Color Scheme
 |     |        |
@@ -50,6 +48,10 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 | Placeholder image was searched and saved in file - [PLACEHOLDER IMAGE](https://www.google.com/search?q=cocktails+green+vector+logo&tbm=isch&ved=2ahUKEwjy4LadidGCAxWmXEEAHasFB_MQ2-cCegQIABAA&oq=cocktails+green+vector+logo&gs_lcp=CgNpbWcQAzoECCMQJ1ChDlj9I2C5KGgAcAB4AIABjwKIAbwGkgEFNC4wLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0YZaZbK0LKa5hbIPq4ucmA8&bih=923&biw=1920#imgrc=30DceCdjDVQoDM)| ![lime-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/d6a86091-013f-4a02-a1eb-804e47dfb61c)|
 ### Icons
   * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
+# DATABASE MODEL
+|         |      |
+|-------|-------|
+| Recipe and Comment Database Model| ![IMG_1422](https://github.com/Indrakens/heaven1/assets/127971416/9766fef9-43a6-4ece-bd1c-558092b6703c)|  
 # WIREFRAME
 ## Home 
 |                   |                |
