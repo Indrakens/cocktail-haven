@@ -57,7 +57,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 |                   |                |
 |----------|---------|
 | Unregistered User Home Page| ![New Wireframe 1](https://github.com/Indrakens/heaven1/assets/127971416/cfa036c6-79e8-4a12-81a7-86ce93f4265e)|
-| LogIn User Home Page, Users whom added cocktail recipe are able to see Update and Delete buttons belove cocktail image| ![login (1)](https://github.com/Indrakens/heaven1/assets/127971416/5acb2e13-5d02-4633-b2c7-cdb3a448c5d4)|
+| Login User Home Page - The user can see the update and delete buttons below their added cocktail recipe| ![login (1)](https://github.com/Indrakens/heaven1/assets/127971416/5acb2e13-5d02-4633-b2c7-cdb3a448c5d4)|
 ## Register / LogIn
 |              |              |
 |---------|---------|
