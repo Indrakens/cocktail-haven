@@ -1,7 +1,7 @@
 # COCKTAIL | HEAVEN
 Website designed to provide users learn and try cocktail recipes. Users can register to the site and once logged in they have access to all the site features. Registered users can create their own cocktail recipes and share their cocktail recipes with other users. Also can update or delete their own cocktail recipe. Users can like/ unlike cocktail recipes and also be involved in conversations related to chosen cocktail recipes by commenting on them. 
 #
-![IMG_1382 (1)](https://github.com/Indrakens/bootstrap-whiskydrop-landing-page/assets/127971416/27e98a29-9c9b-4ad8-8a29-795f78fa245a)
+![IMG_1415](https://github.com/Indrakens/heaven1/assets/127971416/72bd6d19-c47d-4c47-9daf-6534de5522ec)
 #
 The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
 #
@@ -209,18 +209,12 @@ The goal of the project is to create a cocktail recipe website. To provide users
 |       |      |
 |-----|-----|
 | Delete Cocktail | ![IMG_1292](https://github.com/Indrakens/heaven1/assets/127971416/189ab783-41ea-4123-885d-5b934202a495)|
-### Forbidden Access
-* The 403 Forbidden error indicates that the server understands the request but can't provide additional access. This means that the web page you're trying to open in your browser is a resource that you're not allowed to access.
-* To exit page click on Home Page link, redirects to home page
-
-|     |      |
-|------|------|
-| Forbidden Access | ![IMG_1368](https://github.com/Indrakens/heaven1/assets/127971416/0443a695-5fcd-416b-8aa3-9e4fe847dbbd)|
 ### Error Handlers
 |       |       |
 |------|-------|
-| 404 | ![IMG_1365](https://github.com/Indrakens/heaven1/assets/127971416/91f2f123-0b03-4451-98f3-4310ecdbbd9e)|
-| 500 | ![IMG_1363](https://github.com/Indrakens/heaven1/assets/127971416/6570abca-ea4e-4e90-8a7a-0361151d2b47)|
+| The 404 code means that a server could not find a client-requested webpage. | ![IMG_1365](https://github.com/Indrakens/heaven1/assets/127971416/91f2f123-0b03-4451-98f3-4310ecdbbd9e)|
+| The HTTP status code 500 is a generic error response. It means that the server encountered an unexpected condition that prevented it from fulfilling the request.| ![IMG_1363](https://github.com/Indrakens/heaven1/assets/127971416/6570abca-ea4e-4e90-8a7a-0361151d2b47)|
+| The 403 Forbidden error indicates that the server understands the request but can't provide additional access. This means that the web page you're trying to open in your browser is a resource that you're not allowed to access.| ![IMG_1368](https://github.com/Indrakens/heaven1/assets/127971416/0443a695-5fcd-416b-8aa3-9e4fe847dbbd)|
 ### Footer
 * Footer is displayed in the bottom of the page
 * Includes social media links: Facebook, Instagram, Twiter 
