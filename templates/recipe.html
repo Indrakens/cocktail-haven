@@ -1,57 +1,61 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %}
 {% block content %}
 
 {% load crispy_forms_tags %}
 <div class="container">
+    <!-- Main head -->
     <div class="main-head">
         <div class="row">
             <div class="col-md-8 main-head-text">
                 <h1 class="cocktail-title text-white text-uppercase pt-5">{{ cocktail.name }}</h1>
                 <p class="cocktail-subtitle text-white">{{ cocktail.user }} | {{ cocktail.created_on }}</p>
-            </div> 
+            </div>
             <div class="d-none d-md-block col-md-4 main-head-image">
                 {% if "placeholder" in cocktail.featured_image.url %}
-                <img src="https://res.cloudinary.com/dinbzvx8s/image/upload/v1699958086/static/images/cocktail.7062657aa641.jpg" width="100%" alt="green-lime-cocktail">
+                <img src="https://res.cloudinary.com/dinbzvx8s/image/upload/v1699958086/static/images/cocktail.7062657aa641.jpg"
+                    width="100%" alt="green-lime-cocktail">
                 {% else %}
-                <img src=" {{ cocktail.featured_image.url }}"  width="100%">
-                {% endif %} 
-            </div>  
+                <img src=" {{ cocktail.featured_image.url }}" width="100%">
+                {% endif %}
+            </div>
         </div>
     </div>
-</div> 
+</div>
 
-
-
+<!-- Cocktail recipe details -->
 <div class="container">
     <div class="row">
         <div class="col card left top">
             <div class="card-body">
-                <p class="card-text f-6" style="width: 40%;">{{ cocktail.serving | safe }} serving(s) | {{ cocktail.time | safe }}-mins
+                <p class="card-text f-6" style="width: 40%;">{{ cocktail.serving | safe }} serving(s) | {{ cocktail.time
+                    | safe }}-mins
                 </p>
                 <p class="card-text" style="width: auto;"><span class="card-heading h2">Ingredients:</span>
-                    <p class="card-text" style="width: 45%;">
-                        {{ cocktail.ingredients | safe }}
-                    </p>
+                <p class="card-text" style="width: 45%;">
+                    {{ cocktail.ingredients | safe }}
                 </p>
-                <p class="card-text" style="width: auto;">     
-                    <span class="card-heading h2">Directions:  </span>     
-                    <p class="card-text" style="width: auto;">
-                        {{ cocktail.directions | safe }}
-                    </p>
+                </p>
+                <p class="card-text" style="width: auto;">
+                    <span class="card-heading h2">Directions: </span>
+                <p class="card-text" style="width: auto;">
+                    {{ cocktail.directions | safe }}
+                </p>
                 <div class="row">
                     <!-- Like button -->
                     <div class="col-1">
                         <strong>
-                            {% if user.is_authenticated %} 
+                            {% if user.is_authenticated %}
                             <form class="d-inline" action="{% url 'cocktail_like' cocktail.slug %}" method="POST">
                                 {% csrf_token %}
                                 {% if liked %}
-                                <button type="submit" name="cocktail_id" value="{{cocktail.slug}}" class="btn-like"><i class="fas fa-heart"></i></button>
+                                <button type="submit" name="cocktail_id" value="{{cocktail.slug}}" class="btn-like"><i
+                                        class="fas fa-heart"></i></button>
                                 {% else %}
-                                <button type="submit" name="cocktail_id" value="{{cocktail.slug}}" class="btn-like"><i class="far fa-heart"></i></button>
+                                <button type="submit" name="cocktail_id" value="{{cocktail.slug}}" class="btn-like"><i
+                                        class="far fa-heart"></i></button>
                                 {% endif %}
                             </form>
-                            {% else %} 
+                            {% else %}
                             <span class="text-secondary"><i class="far fa-heart"></i></span>
                             {% endif %}
                         </strong>
@@ -80,7 +84,7 @@
             <h3>Comments:</h3>
             <div class="card-body">
                 {% for comment in comments %}
-                <div class="comments" style="padding: 10px;"> 
+                <div class="comments" style="padding: 10px;">
                     <p class="font-weight-bold">
                         {{ comment.name }}
                         <span class=" text-muted font-weight-normal">
@@ -98,9 +102,9 @@
                 {% if commented %}
                 <div class="alert alert-success alert-dismissible fade show" id="msg" role="alert">
                     Your comment is awaiting approval
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>   
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-                
+
                 {% else %}
 
                 {% if user.is_authenticated %}
@@ -113,7 +117,7 @@
                 </form>
 
                 {% endif %}
-                {% endif %} 
+                {% endif %}
             </div>
         </div>
     </div>

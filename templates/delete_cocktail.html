@@ -3,7 +3,8 @@
 {% load i18n %}
 {% block content %}
 
-<div class="container">  
+<!-- Delete cocktail form -->
+<div class="container">
     <div class="row">
         <div class="col-md-8 offset-md-2 pt-5">
             <form method="POST">
@@ -11,7 +12,7 @@
                 <h2>Delete Cocktail</h2>
                 <p>Are you sure you want to delete the "{{ recipe.name}}"?</p>
                 <div class="exit-link">
-                    <p>If you're not sure, then please 
+                    <p>If you're not sure, then please
                         <a href="{% url 'home' %}" class="exit-link">Exit</a> .
                     </p>
                 </div>
@@ -19,7 +20,7 @@
                     <button type="submit" class="btn btn-sm btn-success btn-signup">Delete</button>
                 </div>
             </form>
-        </div>           
+        </div>
     </div>
 </div>
 {% endblock %}
