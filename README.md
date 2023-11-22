@@ -30,6 +30,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [CREDITS](https://github.com/Indrakens/cocktail-heaven#credits)
 * [CONTENT AND RESOURCES](https://github.com/Indrakens/cocktail-heaven#content-and-resources)
 * [BUGS](https://github.com/Indrakens/cocktail-heaven/tree/main#bugs)
+  * [UNFIXED BUG]()
 * [ACKNOWLEDGMENT](https://github.com/Indrakens/cocktail-heaven#acknowledgment)    
 # UX
 # DATABASE SCHEME
@@ -68,15 +69,11 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 |         |         |
 |------|--------|
 | Add Cocktail  | ![add-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/ab5fc702-bdfe-479e-b5c3-caecffd159d3)|
-## Edit / Delete
+## Update / Delete
 |        |         |
 |--------|---------|
 | Update Cocktail | ![update-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/6bb4b479-fe27-426c-8ac7-678c2ba18555)|
-| Delete Cocktail | ![delete](https://github.com/Indrakens/heaven1/assets/127971416/3bd0ca0b-16b6-421d-9d9a-79589695f366)|
-## Forbidden Access
-|       |       |
-|------|------|
-| Forbidden Access | ![403](https://github.com/Indrakens/heaven1/assets/127971416/cae2c54f-4408-4aab-b028-e2c0134e899b)| 
+| Delete Cocktail | ![delete](https://github.com/Indrakens/heaven1/assets/127971416/3bd0ca0b-16b6-421d-9d9a-79589695f366)| 
 # AGILE
 The Agile methodology was used to plan the project. Each user story was linked to an Epic. Issues were used to create Epics and User Stories with a custom template. Once work on the website story was complete, the user story was moved into the "Done" column.
 ## EPICS
@@ -380,7 +377,7 @@ Creating a clone enables you to make a copy of the repository at that point in t
 * The Code Institute reference material was used as a general reference for things that I had previously done during the course
 * Course content for portfolio project 4 helped able to complete this project 
 # BUGS
-* I wasn' able to check python testing in terminal, didn't show any testing.py files. I had to add code in settings.py.
+* I wasn't able to check python testing in terminal, didn't show any testing.py files. I had to add code in settings.py.
 
 |        |        |
 |--------|--------|
@@ -395,7 +392,18 @@ Creating a clone enables you to make a copy of the repository at that point in t
 | 3. |  Delete all the migrations files inside the migration folder of all the Django applications (EXCEPT for **init.py** file, this is important)|
 | 4. |  Make migrations again|
 | 5. | Create a new superuser|
-|
+* Website stopped working and had an error - NoReversMatch at /.
+Reverse for 'recipe' with arguments '(",)' not found. I had to add extra code in my models.py file under display total number of likes
+|        |          |
+|--------|--------|
+| Added code | ![IMG_1393](https://github.com/Indrakens/heaven1/assets/127971416/1d98fe92-e1b7-4628-8cb8-78a7e56b4825)| 
+## UNFIXED BUG
+* The alert messige after deleting cocktail recipe does not appear so I had to remove it. Was working before and not anymore. Wasnt able to fix it.
+
+|     |     |
+|------|------|
+| Code before | ![IMG_1420](https://github.com/Indrakens/heaven1/assets/127971416/d57668b1-af78-4227-9950-7e72622adbed)|
+| Code after removing success message | ![IMG_1421](https://github.com/Indrakens/heaven1/assets/127971416/b670b248-6326-4e7f-8333-8260b99ee222)|
 # ACKNOWLEDGMENT
 * Graeme Taylor - my mentor who provided me with great feedback and guidance at the inception of this projec
 * Alan Bushell - our teacher, always a great mentor during stand-up. And who helped insure me to get true this project

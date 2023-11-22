@@ -133,8 +133,6 @@ class RecipeUpdate(
     """
     Logged-in user can edit it's own cocktail recipe
     Redirects to home page
-    Clicking on edit button to other user  
-    cocktail recipe will redirect to 403 page
     """
 
     model = Recipe
@@ -156,18 +154,15 @@ class RecipeUpdate(
 
 
 class RecipeDelete(
-    LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
+    LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
     """
     Logged-in user can delete it's own cocktail recipe
     Redirects to delete_cocktail page
-    Clicking on delete button to other user cocktail
-    recipe will redirect to 403 page
     """
-
+    
     model = Recipe
     template_name = "delete_cocktail.html"
     success_url = reverse_lazy("home")
-    success_message = "You have successfully updated a cocktail!"
 
     def test_func(self):
         return self.request.user == self.get_object().user
