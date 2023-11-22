@@ -70,7 +70,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 ## Add Cocktail
 |         |         |
 |------|--------|
-| Add Cocktail  | ![add1234](https://github.com/Indrakens/heaven1/assets/127971416/5bc272bf-b2db-459a-88ef-0bc14c88fd84)|
+| Add Cocktail  | ![add1234 (1)](https://github.com/Indrakens/heaven1/assets/127971416/96264b14-fd33-4fa5-a968-648e7271df53)|
 ## Update / Delete
 |        |         |
 |--------|---------|
