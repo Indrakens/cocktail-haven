@@ -30,7 +30,7 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 * [CREDITS](https://github.com/Indrakens/cocktail-heaven#credits)
 * [CONTENT AND RESOURCES](https://github.com/Indrakens/cocktail-heaven#content-and-resources)
 * [BUGS](https://github.com/Indrakens/cocktail-heaven/tree/main#bugs)
-  * [UNFIXED BUG]()
+  * [UNFIXED BUG](https://github.com/Indrakens/cocktail-heaven#unfixed-bug)
 * [ACKNOWLEDGMENT](https://github.com/Indrakens/cocktail-heaven#acknowledgment)    
 # UX
 # DATABASE SCHEME
