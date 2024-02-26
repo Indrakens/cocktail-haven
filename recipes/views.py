@@ -162,7 +162,7 @@ class RecipeDelete(
     
     model = Recipe
     template_name = "delete_cocktail.html"
-    success_url = reverse_lazy("home")
+    success_url = reverse_lazy("home") 
 
-    def test_func(self):
-        return self.request.user == self.get_object().user
+    def test_func(self): 
+        return self.request.user == self.get_object().user 
