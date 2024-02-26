@@ -10,14 +10,14 @@ class Recipe(models.Model):
     Recipe Model
     """
 
-    name = models.CharField(max_length=200, unique=False)
-    slug = models.SlugField(max_length=200, unique=True)
+    name = models.CharField(max_length=200, blank=False, null=False, unique=True) 
+    slug = models.SlugField(max_length=200, blank=True) 
     user = models.ForeignKey(
          User, on_delete=models.CASCADE, related_name="cocktail")
     featured_image = CloudinaryField("image", default="placeholder")
     serving = models.IntegerField()
     time = models.IntegerField()
-    description = models.CharField(max_length=100, unique=True)
+    description = models.CharField(max_length=100, null=False, blank=False) 
     updated_on = models.DateTimeField(auto_now=True)
     ingredients = models.TextField(blank=False)
     directions = models.TextField()
