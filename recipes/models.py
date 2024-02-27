@@ -44,7 +44,7 @@ class Recipe(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = self.name.replace('', '-')
+            self.slug = self.name.replace(' ', '-') 
         super().save(*args, **kwargs)  
 
 
