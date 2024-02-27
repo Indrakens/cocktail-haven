@@ -19,7 +19,8 @@ class Recipe(models.Model):
         validators=[RegexValidator("[+-/%']", inverse_match=True)],
     )
     slug = models.SlugField(max_length=200, blank=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cocktail")
+    user = models.ForeignKey(User, on_delete=models.CASCADE,
+                             related_name="cocktail")
     featured_image = CloudinaryField("image", default="placeholder")
     serving = models.IntegerField()
     time = models.IntegerField()
@@ -29,7 +30,8 @@ class Recipe(models.Model):
     directions = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    likes = models.ManyToManyField(User, related_name="cocktail_like", blank=True)
+    likes = models.ManyToManyField(User, related_name="cocktail_like",
+                                    blank=True)
 
     class Meta:
         """

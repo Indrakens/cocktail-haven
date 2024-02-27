@@ -14,7 +14,7 @@
 | cocktails2023/ urls.py | ![IMG_1230](https://github.com/Indrakens/UCD-resume/assets/127971416/736a64c8-b575-40ad-9dc9-73d83b6d5776)|
 | cocktails2023 / views.py        | ![IMG_1231](https://github.com/Indrakens/UCD-resume/assets/127971416/3a358713-fdd4-43d5-9280-d279278bec21)|
 | admin.py                        | ![IMG_1233](https://github.com/Indrakens/UCD-resume/assets/127971416/19a03123-b303-44c0-b14f-4868a89e8492)|
-| models.py                      | ![IMG_1235](https://github.com/Indrakens/UCD-resume/assets/127971416/78e2310e-9ca7-44ea-a014-6883a48925dd)|
+| models.py                      | <img width="536" alt="Screenshot 2024-02-27 225612" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/367f8bc7-251a-44d8-ae37-76d710c23af3">|
 | forms.py                       | ![IMG_1229](https://github.com/Indrakens/UCD-resume/assets/127971416/e826f87a-58b6-415f-a40d-c35db2b7dc4a)|
 | urls.py                        | ![IMG_1236](https://github.com/Indrakens/UCD-resume/assets/127971416/2c936669-1cc6-499d-b487-42b308b3d278)|
 | views.py                       | ![IMG_1237](https://github.com/Indrakens/UCD-resume/assets/127971416/726d0671-eaad-4394-806a-3edf43a5bff8)|

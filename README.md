@@ -399,7 +399,7 @@ Reverse for 'recipe' with arguments '(",)' not found. I had to add extra code in
 |        |         |
 |--------|--------|
 | Added code |![IMG_1393](https://github.com/Indrakens/heaven1/assets/127971416/1d98fe92-e1b7-4628-8cb8-78a7e56b4825)| 
-#### The website had an error while trying to add and update the cocktail recipe. For name in Recipe model added validator to prevent the 500 error, and for slug in Recipe model added blank=True to prevent an error.
+#### The website had an error while trying to add and update the cocktail recipe. In models.py file imported RegexValidator and for name in Recipe model added validator to prevent the 500 error. For slug in Recipe model removed unique=True and added blank=True to prevent an error.
 |        |         |
 |------|-------|
 | Changed code in Recipe model for name and slug | <img width="447" alt="Screenshot 2024-02-27 224213" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/56be8cd8-bdb5-4f24-924a-6ce8dff76c49">|
