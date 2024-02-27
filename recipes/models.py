@@ -11,21 +11,25 @@ class Recipe(models.Model):
     Recipe Model
     """
 
-    name = models.CharField(max_length=200, blank=False, null=False, unique=True, validators=[RegexValidator("[+-/%']", inverse_match=True)]) 
-    slug = models.SlugField(max_length=200, blank=True) 
-    user = models.ForeignKey(
-         User, on_delete=models.CASCADE, related_name="cocktail")
+    name = models.CharField(
+        max_length=200,
+        blank=False,
+        null=False,
+        unique=True,
+        validators=[RegexValidator("[+-/%']", inverse_match=True)],
+    )
+    slug = models.SlugField(max_length=200, blank=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cocktail")
     featured_image = CloudinaryField("image", default="placeholder")
     serving = models.IntegerField()
     time = models.IntegerField()
-    description = models.CharField(max_length=100, null=False, blank=False) 
+    description = models.CharField(max_length=100, null=False, blank=False)
     updated_on = models.DateTimeField(auto_now=True)
     ingredients = models.TextField(blank=False)
     directions = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    likes = models.ManyToManyField(
-        User, related_name="cocktail_like", blank=True)
+    likes = models.ManyToManyField(User, related_name="cocktail_like", blank=True)
 
     class Meta:
         """
@@ -45,8 +49,8 @@ class Recipe(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = self.name.replace(' ', '-') 
-        super().save(*args, **kwargs)  
+            self.slug = self.name.replace(" ", "-")
+        super().save(*args, **kwargs)
 
 
 class Comment(models.Model):

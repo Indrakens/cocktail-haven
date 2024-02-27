@@ -43,9 +43,9 @@ The website was deployed via Heroku - the live site can be found here - [COCKTAI
 ### Images
 |          |          |
 |-------|-------|
-| Logo image was searched and saved in file [LOGO IMAGE](https://www.google.com/search?q=cocktail+logo&tbm=isch&ved=2ahUKEwi67K6yjNGCAxWtXUEAHcJxArgQ2-cCegQIABAA&oq=cocktail+logo&gs_lcp=CgNpbWcQARgAMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABCABBCKBRBDOgYIABAHEB5Q-xBYjB5gtjFoAHAAeACAAZIBiAHzBJIBAzcuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=IopaZbrTOa27hbIPwuOJwAs&bih=923&biw=1903&hl=en#imgrc=VZcki_BNEoSS1M)| ![logo](https://github.com/Indrakens/heaven1/assets/127971416/7c206e9e-72e1-40c6-bd50-7b69c422720a)|
+| Logo image was searched and saved in file [LOGO IMAGE](https://www.google.com/search?q=cocktail+logo&tbm=isch&ved=2ahUKEwi67K6yjNGCAxWtXUEAHcJxArgQ2-cCegQIABAA&oq=cocktail+logo&gs_lcp=CgNpbWcQARgAMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABCABBCKBRBDOgYIABAHEB5Q-xBYjB5gtjFoAHAAeACAAZIBiAHzBJIBAzcuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=IopaZbrTOa27hbIPwuOJwAs&bih=923&biw=1903&hl=en#imgrc=VZcki_BNEoSS1M)| ![logo](https://github.com/Indrakens/cocktail-heaven/assets/127971416/22299728-e65c-4e7e-a2f7-fc6bab350f60)|
 | Header image was searched and saved in file [HEADER IMAGE]( https://www.google.com/search?q=cocktails+green&tbm=isch&ved=2ahUKEwik5765iNGCAxXMTkEAHWwLDkcQ2-cCegQIABAA&oq=cocktails&gs_lcp=CgNpbWcQARgBMgQIIxAnMgQIIxAnMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgoIABCABBCKBRBDMgUIABCABDIKCAAQgAQQigUQQzIKCAAQgAQQigUQQ1AAWABg5A9oAHAAeACAATmIATmSAQExmAEAqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=AIZaZaTnCMydhbIP7Ja4uAQ&bih=923&biw=1920#imgrc=LVQx2cFOvohiSM )| ![Green-Cocktail](https://github.com/Indrakens/heaven1/assets/127971416/baab3fcc-c011-4001-aec9-c647fa826f0a)|
-| Placeholder image was searched and saved in file - [PLACEHOLDER IMAGE](https://www.google.com/search?q=cocktails+green+vector+logo&tbm=isch&ved=2ahUKEwjy4LadidGCAxWmXEEAHasFB_MQ2-cCegQIABAA&oq=cocktails+green+vector+logo&gs_lcp=CgNpbWcQAzoECCMQJ1ChDlj9I2C5KGgAcAB4AIABjwKIAbwGkgEFNC4wLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0YZaZbK0LKa5hbIPq4ucmA8&bih=923&biw=1920#imgrc=30DceCdjDVQoDM)| ![lime-cocktail](https://github.com/Indrakens/heaven1/assets/127971416/d6a86091-013f-4a02-a1eb-804e47dfb61c)|
+| Placeholder image was searched and saved in file - [PLACEHOLDER IMAGE](https://www.google.com/search?q=cocktails+green+vector+logo&tbm=isch&ved=2ahUKEwjy4LadidGCAxWmXEEAHasFB_MQ2-cCegQIABAA&oq=cocktails+green+vector+logo&gs_lcp=CgNpbWcQAzoECCMQJ1ChDlj9I2C5KGgAcAB4AIABjwKIAbwGkgEFNC4wLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0YZaZbK0LKa5hbIPq4ucmA8&bih=923&biw=1920#imgrc=30DceCdjDVQoDM)| ![lime-cocktail](https://github.com/Indrakens/cocktail-heaven/assets/127971416/021a185a-1582-4acb-bba4-1f0ee7d3dc8c)|
 ### Icons
   * The website uses [Font Awesome]( https://fontawesome.com/ ) icons for comment icon, heart icon, social media icons.
 # DATABASE MODEL
@@ -394,11 +394,15 @@ Creating a clone enables you to make a copy of the repository at that point in t
 | 3. |  Delete all the migrations files inside the migration folder of all the Django applications (EXCEPT for **init.py** file, this is important)|
 | 4. |  Make migrations again|
 | 5. | Create a new superuser|
-* Website stopped working and had an error - NoReversMatch at /.
+#### Website stopped working and had an error - NoReversMatch at /.
 Reverse for 'recipe' with arguments '(",)' not found. I had to add extra code in my models.py file under display total number of likes
-|        |          |
+|        |         |
 |--------|--------|
-| Added code | ![IMG_1393](https://github.com/Indrakens/heaven1/assets/127971416/1d98fe92-e1b7-4628-8cb8-78a7e56b4825)| 
+| Added code |![IMG_1393](https://github.com/Indrakens/heaven1/assets/127971416/1d98fe92-e1b7-4628-8cb8-78a7e56b4825)| 
+#### The website had an error while trying to add and update the cocktail recipe. For name in Recipe model added validator to prevent the 500 error, and for slug in Recipe model added blank=True to prevent an error.
+|        |         |
+|------|-------|
+| Changed code in Recipe model for name and slug | <img width="447" alt="Screenshot 2024-02-27 224213" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/56be8cd8-bdb5-4f24-924a-6ce8dff76c49">|
 ## UNFIXED BUG
 * The alert messige after deleting cocktail recipe does not appear so I had to remove it. Was working before and not anymore. Wasnt able to fix it.
 
