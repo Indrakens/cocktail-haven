@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
+from django.core.validators import RegexValidator
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
@@ -10,7 +11,7 @@ class Recipe(models.Model):
     Recipe Model
     """
 
-    name = models.CharField(max_length=200, blank=False, null=False, unique=True) 
+    name = models.CharField(max_length=200, blank=False, null=False, unique=True, validators=[RegexValidator("[+-/%']", inverse_match=True)]) 
     slug = models.SlugField(max_length=200, blank=True) 
     user = models.ForeignKey(
          User, on_delete=models.CASCADE, related_name="cocktail")
