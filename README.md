@@ -1,10 +1,9 @@
 # COCKTAIL | HEAVEN
 Website designed to provide users learn and try cocktail recipes. Users can register to the site and once logged in they have access to all the site features. Registered users can create their own cocktail recipes and share their cocktail recipes with other users. Also can update or delete their own cocktail recipe. Users can like/ unlike cocktail recipes and also be involved in conversations related to chosen cocktail recipes by commenting on them. 
 #
-![IMG_1415](https://github.com/Indrakens/heaven1/assets/127971416/72bd6d19-c47d-4c47-9daf-6534de5522ec)
-#
-The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/)
-#
+<img width="539" alt="Screenshot 2024-02-28 131824" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/2f76f8cf-0f43-4453-a744-0f99642aa642">
+The website was deployed via Heroku - the live site can be found here - [COCKTAIL | HEAVEN](https://cocktailheaven-c43cabf55fb3.herokuapp.com/) 
+
 ## TABLE OF CONTENT
 * [UX](https://github.com/Indrakens/cocktail-heaven#ux)
 * [UX DESIGN](https://github.com/Indrakens/cocktail-heaven#ux-design)
