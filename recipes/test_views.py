@@ -4,14 +4,14 @@ from .models import Recipe
 
 
 class TestViews(TestCase):
-                
+
     def test_get_home(self):
         """
         Home page test response 200
         """
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'index.html')  
+        self.assertTemplateUsed(response, 'index.html')
 
     def test_get_recipe_detail_page(self):
         """
@@ -43,4 +43,4 @@ class TestViews(TestCase):
         User can delete it's own cocktail recipe
         """
         response = self.client.get(f'/delete_cocktail/')
-        self.assertEqual(response.status_code, 302)      
+        self.assertEqual(response.status_code, 302)

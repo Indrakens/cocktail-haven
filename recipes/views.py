@@ -100,7 +100,7 @@ class RecipeLike(LoginRequiredMixin, View):
 
 
 class RecipeCreate(
-    LoginRequiredMixin, SuccessMessageMixin, 
+    LoginRequiredMixin, SuccessMessageMixin,
         generic.CreateView):
     """
     Looged-in user can add it's own cocktail recipe
@@ -154,15 +154,15 @@ class RecipeUpdate(
 
 
 class RecipeDelete(
-    LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
+      LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
     """
     Logged-in user can delete it's own cocktail recipe
     Redirects to delete_cocktail page
     """
-    
+
     model = Recipe
     template_name = "delete_cocktail.html"
-    success_url = reverse_lazy("home") 
+    success_url = reverse_lazy("home")
 
-    def test_func(self): 
-        return self.request.user == self.get_object().user 
+    def test_func(self):
+        return self.request.user == self.get_object().user

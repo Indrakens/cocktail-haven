@@ -11,16 +11,16 @@
 # CI PYTHON LINTER [pep8ci](https://pep8ci.herokuapp.com/)
 |     FILE               |  RESULTS  |
 |-------------|:-----:|
-| cocktails2023/ urls.py | ![IMG_1230](https://github.com/Indrakens/UCD-resume/assets/127971416/736a64c8-b575-40ad-9dc9-73d83b6d5776)|
-| cocktails2023 / views.py        | ![IMG_1231](https://github.com/Indrakens/UCD-resume/assets/127971416/3a358713-fdd4-43d5-9280-d279278bec21)|
-| admin.py                        | ![IMG_1233](https://github.com/Indrakens/UCD-resume/assets/127971416/19a03123-b303-44c0-b14f-4868a89e8492)|
+| cocktails2023/ urls.py | <img width="520" alt="Screenshot 2024-02-28 133337" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/c2b03165-f049-4a16-b224-1ded504612d6">|
+| cocktails2023 / views.py        | <img width="516" alt="Screenshot 2024-02-28 133603" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/6e2c6e00-3d7c-46e1-a24f-7fbc444c8f65">|
+| admin.py                        | <img width="534" alt="Screenshot 2024-02-28 133849" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/aff61a43-8b47-4447-9aca-16d02b718538">|
 | models.py                      | <img width="536" alt="Screenshot 2024-02-27 225612" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/367f8bc7-251a-44d8-ae37-76d710c23af3">|
-| forms.py                       | ![IMG_1229](https://github.com/Indrakens/UCD-resume/assets/127971416/e826f87a-58b6-415f-a40d-c35db2b7dc4a)|
-| urls.py                        | ![IMG_1236](https://github.com/Indrakens/UCD-resume/assets/127971416/2c936669-1cc6-499d-b487-42b308b3d278)|
-| views.py                       | ![IMG_1237](https://github.com/Indrakens/UCD-resume/assets/127971416/726d0671-eaad-4394-806a-3edf43a5bff8)|
-| test_forms.py                  | ![IMG_1238](https://github.com/Indrakens/UCD-resume/assets/127971416/7ce3a19f-0606-47be-90f3-8056cbb4b995)|
-| test_urls.py                   | ![IMG_1239](https://github.com/Indrakens/UCD-resume/assets/127971416/2ff8b943-b383-406b-8a26-6868fac3dc79)|
-| test_views.py                  | ![IMG_1241](https://github.com/Indrakens/UCD-resume/assets/127971416/ee82d1ee-546e-4469-bc4f-76ce7b5ebb10)|
+| forms.py                       | <img width="523" alt="Screenshot 2024-02-28 134104" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/e2c144d6-d604-45de-b9f2-d0eb27d029bb">|
+| urls.py                        | <img width="540" alt="Screenshot 2024-02-28 134644" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/70fcc00d-98b8-4ce1-91b1-5bd4ab3032f6">|
+| views.py                       | <img width="535" alt="Screenshot 2024-02-28 135129" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/07425a1d-d836-4346-9b24-273f32595730">|
+| test_forms.py                  | <img width="549" alt="Screenshot 2024-02-28 135418" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/23a472a9-ecfa-4c42-86d7-ef83e6c0f785">|
+| test_urls.py                   | <img width="537" alt="Screenshot 2024-02-28 135600" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/21c13eee-74ec-410a-a7de-a098aecf63f1">|
+| test_views.py                  | <img width="541" alt="Screenshot 2024-02-28 135841" src="https://github.com/Indrakens/cocktail-heaven/assets/127971416/2b81993c-e695-43e9-8873-35296675010a">|
 # UNITTEST
 * Test Database
 
